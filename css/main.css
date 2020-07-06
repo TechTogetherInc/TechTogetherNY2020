@@ -1,0 +1,60 @@
+.section-name {
+	font-family: 'Barlow', sans-serif;
+	color: #FF5B4F;
+	font-size: 24px;
+	text-align: center;
+	margin: 50px 0px 10px 0px;
+}
+
+#get-involved, #schedule {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #333F9B;
+}
+
+button.btn {
+	border-color: #333F9B;
+	color: #333F9B;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	border-radius: 4px;
+	padding: 6px 24px;
+	transition-duration: 0.3s;
+	margin: 8px 0px;
+	padding: 6px 50px;
+}
+
+button.user-btn.active, button.day-btn.active, button.btn:hover {
+	background-color: #333F9B;
+	color: #FFFFFF;
+}
+
+#get-involved-content > div, #schedule-content > div {
+	display: none;
+}
+
+#get-involved-content > div.active, #schedule-content > div.active {
+	display: block;
+	margin: 20px;
+}
+
+#get-involved-content {
+	width: 50%;
+	margin: auto;
+}
+
+.input-group > .form-control, .input-group-append > button.btn {
+	font-size: 12px;
+	margin: 8px 0px;
+	border-color: #FF5B4F;
+}
+
+.input-group-append > button.btn {
+	color: #FFFFFF;
+	background-color: #FF5B4F;
+}
+
+.input-group-append > button.btn:hover {
+	background-color: #FFFFFF;
+	color: #FF5B4F;
+}
