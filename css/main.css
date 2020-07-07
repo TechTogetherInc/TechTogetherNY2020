@@ -8,10 +8,12 @@
 
 #get-involved, #schedule {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 12px;
 	color: #333F9B;
 }
 
+/* button tabs */
 button.btn {
 	border-color: #333F9B;
 	color: #333F9B;
@@ -29,6 +31,8 @@ button.user-btn.active, button.day-btn.active, button.btn:hover {
 	color: #FFFFFF;
 }
 
+
+/* get involved, schedule content */
 #get-involved-content > div, #schedule-content > div {
 	display: none;
 }
@@ -43,6 +47,7 @@ button.user-btn.active, button.day-btn.active, button.btn:hover {
 	margin: auto;
 }
 
+/* enter buttons */
 .input-group > .form-control, .input-group-append > button.btn {
 	font-size: 12px;
 	margin: 8px 0px;
@@ -58,3 +63,97 @@ button.user-btn.active, button.day-btn.active, button.btn:hover {
 	background-color: #FFFFFF;
 	color: #FF5B4F;
 }
+
+/* tentative schedule */
+
+.table {
+	border-bottom: 1px solid #DEE2E6;
+	border-right: 1px solid #DEE2E6;
+}
+
+/*#day1 > table, #day2 > table, #day3 > table {
+	width: 50%;
+	margin: auto;
+}*/
+
+.event > span:nth-child(1) {
+	font-weight: 800;
+}
+
+span.loc {
+	color: #B23027;
+}
+
+tr > th, span.loc {
+	font-weight: 400;
+}
+
+tr.mand {
+	border-left: 10px solid #FC7361;
+}
+
+tr.mand > th > span {
+	color: #FC7361;
+}
+
+tr.spkrs {
+	border-left: 10px solid #51DBF6;
+}
+
+tr.spkrs > th > span {
+	color: #51DBF6;
+}
+
+tr.wshop {
+	border-left: 10px solid #808CFB;
+}
+
+tr.wshop > th > span {
+	color: #808CFB;
+}
+
+th,td {
+	color: #333F9B;
+}
+
+tr > th {
+	width: 20%;
+}
+
+tr > .event {
+	width: 75%;
+}
+
+tr > .check {
+	width: 5%;
+}
+
+tr > td.hidden-row {
+	/*width: 75%;*/
+    padding: 0 !important;
+    border-top: 1px solid #FFFFFF;
+}
+
+tr > td {
+	width: 100%;
+}
+
+div.card-header {
+	padding: 0;
+}
+
+table.table {
+	margin: 0;
+}
+
+#day1-table .card {
+	width: 65%;
+	margin: auto;
+	/* change background color of card */
+}
+
+/*tr.collapse.in {
+  display:table-row;
+}*/
+
+

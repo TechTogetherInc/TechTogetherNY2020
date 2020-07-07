@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto@wght:400;500&display=swap" rel="stylesheet">
 
 	<title>TechTogether New York 2020</title>
 </head>
@@ -48,13 +48,100 @@
 				<button type="button" class="btn day-btn" data-tab="day2">Oct 24</button>
 				<button type="button" class="btn day-btn" data-tab="day3">Oct 25</button>
 			</div>
-			<div id="schedule-content">
-				<div class="active" id="day1">Oct 23 Schedule here</div>
-				<div id="day2">Oct 24 Schedule here</div>
-				<div id="day3">Oct 25 Volunteer content here</div>
+		</div>
+		<div id="schedule-content">
+			<div class="active" id="day1">
+				<div class="accordion" id="day1-table">
+				  <div class="card">
+				    <div class="card-header" id="heading1">
+				    	<table class="table" data-toggle="collapse" data-target="#collapse1" aria-expanded="true">
+						  <tbody>
+						    <tr class="mand">
+						      <th scope="row">9:00AM - 10:00AM<br><span>Mandatory</span></th>
+						      <td colspan="2" class="event"><span>Registration for Hackers</span><br><span class="loc">LocationX</span></td>
+						      <td class="check">√</td>
+				    		</tr>
+				    	  </tbody>
+				    	</table>
+				    </div>
+
+				    <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#day1-table"><div class="card-body">Content here </div></div>
+				  </div> <!-- end of card -->
+
+				  <div class="card">
+				    <div class="card-header" id="heading2">
+				    	<table class="table" data-toggle="collapse" data-target="#collapse2" aria-expanded="true">
+						  <tbody>
+						    <tr data-toggle="collapse" data-target="#event2" class="collapsed spkrs">
+						      <th scope="row">10:00AM - 11:00AM<br><span>Speakers</span></th>
+						      <td colspan="2" class="event"><span>Opening Cermony: Keynote with X<br></span><span class="loc">LocationX</span></td>
+						      <td class="check">√</td>
+				    		</tr>
+				    	  </tbody>
+				    	</table>
+				    </div>
+
+				    <div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#day1-table"><div class="card-body">Content here </div></div>
+				  </div> <!-- end of card -->
+
+				  <div class="card">
+				    <div class="card-header" id="heading3">
+				    	<table class="table" data-toggle="collapse" data-target="#collapse3" aria-expanded="true">
+						  <tbody>
+						    <tr class="wshop">
+						      <th scope="row">11:00AM - 12:00PM<br><span>Workshop</span></th>
+						      <td colspan="2" class="event"><span>Intro to HTML & CSS: Hosted by X<br></span><span class="loc">Location X</span></td>
+						      <td class="check">√</td>
+				    		</tr>
+				    	  </tbody>
+				    	</table>
+				    </div>
+
+				    <div id="collapse3" class="collapse show" aria-labelledby="heading3" data-parent="#day1-table"><div class="card-body">Content here </div></div>
+				  </div> <!-- end of card -->
+
+
+				</div> <!-- end of day1-table -->
+			</div> <!-- end of day1 content -->
+
+
+			<div id="day2">
+				<table class="table table-hover">
+				  <tbody>
+				    <tr class="wshop">
+				      <th scope="row">10:00AM - 11:00AM<br><span>Workshop</span></th>
+				      <td colspan="2" class="event"><span>Workshop Event: Hosted by Z<br></span><span class="loc">LocationX</span></td>
+				      <td class="check">√</td>
+				    </tr>
+				    <tr class="mand">
+				      <th scope="row">12:00 PM - 1:00PM<br><span>Mandatory</span></th>
+				      <td colspan="2" class="event"><span>Lunch Time<br></span><span class="loc">Location X</span></td>
+				      <td class="check">√</td>
+				    </tr>
+				  </tbody>
+				</table>
+			</div>
+			<div id="day3">
+				<table class="table table-hover">
+				  <tbody>
+				  	<tr class="spkrs">
+				      <th scope="row">8:00AM - 10:00AM<br><span>Speakers</span></th>
+				      <td colspan="2" class="event"><span>Speaker Event: Hosted by Y<br></span><span class="loc">LocationX</span></td>
+				      <td class="check">√</td>
+				    </tr>
+				    <tr class="mand">
+				      <th scope="row">11:00 AM - 2:00 PM<br><span>Mandatory</span></th>
+				      <td colspan="2" class="event"><span>Judging Session</span><br><span class="loc">LocationX</span></td>
+				      <td class="check">√</td>
+				    </tr>
+				  </tbody>
+				</table>
 			</div>
 		</div>
+		
 	</section>
+
+
 
 	<!-- FAQ Section -->
 
