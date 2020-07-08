@@ -1,4 +1,3 @@
-
 function btn_response(event) {
 
 	// inactivates currently-active button and content

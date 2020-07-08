@@ -39,7 +39,6 @@
 	</section>
 
 
-	<!-- Tentative Schedule Section -->
 	<section id="schedule">
 		<h2 class="section-name">Tentative Schedule</h2>
 		<div class="col-md-12 text-center">
@@ -65,7 +64,7 @@
 				    	</table>
 				    </div>
 
-				    <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#day1-table"><div class="card-body">Content here </div></div>
+				    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#day1-table"><div class="card-body mand">Content here </div></div>
 				  </div> <!-- end of card -->
 
 				  <div class="card">
@@ -81,7 +80,7 @@
 				    	</table>
 				    </div>
 
-				    <div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#day1-table"><div class="card-body">Content here </div></div>
+				    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#day1-table"><div class="card-body spkrs">Content here </div></div>
 				  </div> <!-- end of card -->
 
 				  <div class="card">
@@ -97,58 +96,78 @@
 				    	</table>
 				    </div>
 
-				    <div id="collapse3" class="collapse show" aria-labelledby="heading3" data-parent="#day1-table"><div class="card-body">Content here </div></div>
+				    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#day1-table"><div class="card-body wshop">Content here </div></div>
 				  </div> <!-- end of card -->
+				</div> <!-- end of #day1-table -->
+			</div> <!-- end of #day1 -->
 
-
-				</div> <!-- end of day1-table -->
-			</div> <!-- end of day1 content -->
-
-
-			<div id="day2">
-				<table class="table table-hover">
-				  <tbody>
-				    <tr class="wshop">
-				      <th scope="row">10:00AM - 11:00AM<br><span>Workshop</span></th>
-				      <td colspan="2" class="event"><span>Workshop Event: Hosted by Z<br></span><span class="loc">LocationX</span></td>
-				      <td class="check">√</td>
-				    </tr>
-				    <tr class="mand">
-				      <th scope="row">12:00 PM - 1:00PM<br><span>Mandatory</span></th>
-				      <td colspan="2" class="event"><span>Lunch Time<br></span><span class="loc">Location X</span></td>
-				      <td class="check">√</td>
-				    </tr>
-				  </tbody>
-				</table>
-			</div>
-			<div id="day3">
-				<table class="table table-hover">
-				  <tbody>
-				  	<tr class="spkrs">
-				      <th scope="row">8:00AM - 10:00AM<br><span>Speakers</span></th>
-				      <td colspan="2" class="event"><span>Speaker Event: Hosted by Y<br></span><span class="loc">LocationX</span></td>
-				      <td class="check">√</td>
-				    </tr>
-				    <tr class="mand">
-				      <th scope="row">11:00 AM - 2:00 PM<br><span>Mandatory</span></th>
-				      <td colspan="2" class="event"><span>Judging Session</span><br><span class="loc">LocationX</span></td>
-				      <td class="check">√</td>
-				    </tr>
-				  </tbody>
-				</table>
-			</div>
-		</div>
-		
+			<div class="text-center" id="day2">Oct 24 schedule here</div>
+			<div class="text-center" id="day3">Oct 25 schedule here</div>
+		</div> <!-- end of #schedule-content -->
 	</section>
 
 
-
 	<!-- FAQ Section -->
+	<section id="faq">
+		<h2 class="section-name">FAQs</h2>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<div class="accordion" id="faq-Lcards">
+
+					  <div class="card">
+					    <div class="card-header" id="heading-L1">
+					        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse-L1" aria-expanded="true">Question1</button>
+					    </div>
+					    <div id="collapse-L1" class="collapse" aria-labelledby="heading-L1" data-parent="#faq-Lcards">
+					      <div class="card-body">Answer1</div>
+					    </div>
+					  </div> <!-- end of card -->
+
+					  <div class="card">
+					    <div class="card-header" id="heading-L2">
+					        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse-L2" aria-expanded="true">Question2</button>
+					    </div>
+					    <div id="collapse-L2" class="collapse" aria-labelledby="heading-L2" data-parent="#faq-Lcards">
+					      <div class="card-body">Answer2</div>
+					    </div>
+					  </div>
+					</div> <!-- end of card -->
+
+				</div>
+
+				<div class="col-md-6 text-center">
+					<div class="accordion" id="faq-Rcards">
+
+					  <div class="card">
+					    <div class="card-header" id="heading-R1">
+					        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse-R1" aria-expanded="true">Question1</button>
+					    </div>
+					    <div id="collapse-R1" class="collapse" aria-labelledby="heading-R1" data-parent="#faq-Rcards">
+					      <div class="card-body">Answer1</div>
+					    </div>
+					  </div> <!-- end of card -->
+
+					  <div class="card">
+					    <div class="card-header" id="heading-R2">
+					        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse-R2" aria-expanded="true">Question2</button>
+					    </div>
+					    <div id="collapse-R2" class="collapse" aria-labelledby="heading-R2" data-parent="#faq-Rcards">
+					      <div class="card-body">Answer2</div>
+					    </div>
+					  </div> <!-- end of card -->
+
+					</div>
+				</div>
+			</div> <!-- .row -->
+		</div> <!-- .container -->
+	</section>
 
 	<!-- jQuery, Bootstrap plugins, jS file -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.5.1.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

@@ -88,7 +88,8 @@ tr > th, span.loc {
 	font-weight: 400;
 }
 
-tr.mand {
+
+tr.mand, div.mand {
 	border-left: 10px solid #FC7361;
 }
 
@@ -96,7 +97,7 @@ tr.mand > th > span {
 	color: #FC7361;
 }
 
-tr.spkrs {
+tr.spkrs, div.spkrs {
 	border-left: 10px solid #51DBF6;
 }
 
@@ -104,7 +105,7 @@ tr.spkrs > th > span {
 	color: #51DBF6;
 }
 
-tr.wshop {
+tr.wshop, div.wshop {
 	border-left: 10px solid #808CFB;
 }
 
@@ -128,12 +129,6 @@ tr > .check {
 	width: 5%;
 }
 
-tr > td.hidden-row {
-	/*width: 75%;*/
-    padding: 0 !important;
-    border-top: 1px solid #FFFFFF;
-}
-
 tr > td {
 	width: 100%;
 }
@@ -152,6 +147,29 @@ table.table {
 	/* change background color of card */
 }
 
+div.card-header {
+	background-color: #FFFFFF;
+}
+
+div.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #FFF;
+  border: 0px solid #DEE2E6; 
+  border-radius: 0.25rem;
+
+}
+
+div.card-body {
+	background-color: #DEE2E6;
+}
+
+/*div.card{
+	border: 1px solid #FFFFFF;
+}*/
 /*tr.collapse.in {
   display:table-row;
 }*/
