@@ -15,39 +15,43 @@
 
 /* button tabs */
 button.btn {
-	border-color: #333F9B;
-	color: #333F9B;
-	background-color: #FFFFFF;
+	border: 1.25px solid #333F9B;
+	color: #FFFFFF;
+	background-color: #333F9B;
 	font-size: 12px;
-	border-radius: 4px;
+	border-radius: 6px;
 	padding: 6px 24px;
 	transition-duration: 0.3s;
 	margin: 8px 0px;
 	padding: 6px 50px;
 }
 
+
 button.user-btn.active, button.day-btn.active, button.btn:hover {
-	background-color: #333F9B;
-	color: #FFFFFF;
+	color: #333F9B;
+	background-color: #EFEFF4;
 }
 
+#get-involved .col-md-6 .btn {
+	width: 50%;
+}
 
-/* get involved, schedule content */
-#get-involved-content > div, #schedule-content > div {
+#schedule .btn-group {
+	width: 40%;
+}
+
+/* schedule content */
+#schedule-content > div {
 	display: none;
 }
 
-#get-involved-content > div.active, #schedule-content > div.active {
+#schedule-content > div.active {
 	display: block;
 	margin: 20px;
 }
 
-#get-involved-content {
-	width: 50%;
-	margin: auto;
-}
 
-/* enter buttons */
+/* enter buttons
 .input-group > .form-control, .input-group-append > button.btn {
 	font-size: 12px;
 	margin: 8px 0px;
@@ -62,7 +66,7 @@ button.user-btn.active, button.day-btn.active, button.btn:hover {
 .input-group-append > button.btn:hover {
 	background-color: #FFFFFF;
 	color: #FF5B4F;
-}
+} */
 
 /* tentative schedule */
 
@@ -141,14 +145,14 @@ table.table {
 	margin: 0;
 }
 
+/* width of schedule table */
 #day1-table .card {
-	width: 65%;
+	width: 60%;
 	margin: auto;
-	/* change background color of card */
 }
 
-div.card-header {
-	background-color: #FFFFFF;
+#schedule div.card-header {
+	background-color: #EFEFF4;
 }
 
 div.card {
@@ -157,14 +161,15 @@ div.card {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #FFF;
-  border: 0px solid #DEE2E6; 
+  background-color: transparent;
+  border: 0px solid transparent; 
   border-radius: 0.25rem;
 
 }
 
-div.card-body {
-	background-color: #DEE2E6;
+#schedule div.card-body {
+	border-right: 1px solid #DEE2E6;
+	border-bottom: 1px solid #DEE2E6;
 }
 
 /*div.card{
@@ -173,5 +178,63 @@ div.card-body {
 /*tr.collapse.in {
   display:table-row;
 }*/
+
+
+/* formatting for FAQ */
+#faq .card-header button.btn {
+	width: 100%;
+	margin: 0px;
+	border-radius: 4px;
+	padding-left: 20px;
+	text-align: left;
+	font-weight: 800;
+	height: 50px;
+}
+
+#faq .card {
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+#faq .card .card-header {
+	background-color: transparent;
+	border-color: transparent;
+	margin-top: 20px;
+}
+
+#faq .card .card-body {
+	background-color: #EFEFF4;
+	color: #333F9B;
+	margin-bottom: 20px;
+	border: 1px solid #333F9B;
+	border-top: transparent;
+	border-radius: 4px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+
+.fa-caret-down {
+	font-size: 18px;
+	float: right;
+	margin-right: -30px;
+}
+
+[data-toggle="collapse"][aria-expanded="true"] > .rotate-icon
+{
+    -webkit-transform: rotate(180deg);
+    -moz-transform:    rotate(180deg);
+    -ms-transform:     rotate(180deg);
+    -o-transform:      rotate(180deg);
+    transform:         rotate(180deg);
+}
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+
+
+
+
 
 

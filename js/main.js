@@ -20,11 +20,11 @@ function btn_response(event) {
 }
 
 
-// response to user clicking tab name (user type) in get-involved
-var btns = document.querySelectorAll(".user-btn");
-for (var i=0; i<btns.length; i++) {
-	btns[i].addEventListener("click", btn_response);
-}
+// // response to user clicking tab name (user type) in get-involved
+// var btns = document.querySelectorAll(".user-btn");
+// for (var i=0; i<btns.length; i++) {
+// 	btns[i].addEventListener("click", btn_response);
+// }
 
 // response to user clicking tab name (day) in schedule
 var btns = document.querySelectorAll(".day-btn");
@@ -32,9 +32,9 @@ for (var i=0; i<btns.length; i++) {
 	btns[i].addEventListener("click", btn_response);
 }
 
-$('.accordian-body').on('show.bs.collapse', function () {
-    $(this).closest("table")
-        .find(".collapse.in")
-        .not(this)
-        .collapse('toggle')
-})
+// $('.accordian-body').on('show.bs.collapse', function () {
+//     $(this).closest("table")
+//         .find(".collapse.in")
+//         .not(this)
+//         .collapse('toggle')
+// })
