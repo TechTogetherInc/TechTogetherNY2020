@@ -50,35 +50,11 @@ button.user-btn.active, button.day-btn.active, button.btn:hover {
 	margin: 20px;
 }
 
-
-/* enter buttons
-.input-group > .form-control, .input-group-append > button.btn {
-	font-size: 12px;
-	margin: 8px 0px;
-	border-color: #FF5B4F;
-}
-
-.input-group-append > button.btn {
-	color: #FFFFFF;
-	background-color: #FF5B4F;
-}
-
-.input-group-append > button.btn:hover {
-	background-color: #FFFFFF;
-	color: #FF5B4F;
-} */
-
 /* tentative schedule */
-
 .table {
 	border-bottom: 1px solid #DEE2E6;
 	border-right: 1px solid #DEE2E6;
 }
-
-/*#day1 > table, #day2 > table, #day3 > table {
-	width: 50%;
-	margin: auto;
-}*/
 
 .event > span:nth-child(1) {
 	font-weight: 800;
@@ -91,7 +67,6 @@ span.loc {
 tr > th, span.loc {
 	font-weight: 400;
 }
-
 
 tr.mand, div.mand {
 	border-left: 10px solid #FC7361;
@@ -146,7 +121,7 @@ table.table {
 }
 
 /* width of schedule table */
-#day1-table .card {
+#day1 .card, #day2 .card, #day3 .card {
 	width: 60%;
 	margin: auto;
 }
@@ -172,16 +147,8 @@ div.card {
 	border-bottom: 1px solid #DEE2E6;
 }
 
-/*div.card{
-	border: 1px solid #FFFFFF;
-}*/
-/*tr.collapse.in {
-  display:table-row;
-}*/
-
-
-/* formatting for FAQ */
-#faq .card-header button.btn {
+/* FAQ section */
+#faqs .card-header button.btn {
 	width: 100%;
 	margin: 0px;
 	border-radius: 4px;
@@ -191,28 +158,28 @@ div.card {
 	height: 50px;
 }
 
-#faq .card {
+#faqs .card {
 	color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 }
 
-#faq .card .card-header {
+#faqs .card .card-header {
 	background-color: transparent;
 	border-color: transparent;
 	margin-top: 20px;
 }
 
-#faq .card .card-body {
+#faqs .card .card-body {
 	background-color: #EFEFF4;
 	color: #333F9B;
-	margin-bottom: 20px;
 	border: 1px solid #333F9B;
 	border-top: transparent;
 	border-radius: 4px;
 	border-top-right-radius: 0px;
 	border-top-left-radius: 0px;
 }
+
 
 .fa-caret-down {
 	font-size: 18px;

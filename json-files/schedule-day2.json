@@ -1,0 +1,19 @@
+[
+	{
+		"Class": "spkrs",
+		"Time": "12:00PM - 1:00PM",
+		"Category": "Speakers",
+		"Title": "Keynote Presentation",
+		"Location": "LocationX",
+		"Description": "Content here"
+	},
+	{
+		"Class": "wshop",
+		"Time": "2:00PM - 3:30PM",
+		"Category": "Workshop",
+		"Title": "Technical Resume Reviews",
+		"Location": "LocationX",
+		"Description": "Content here"
+
+	}
+]

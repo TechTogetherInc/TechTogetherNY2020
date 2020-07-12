@@ -1,0 +1,19 @@
+[
+	{
+		"Class": "mand",
+		"Time": "10:00AM - 2:00PM",
+		"Category": "Mandatory",
+		"Title": "Judging Session",
+		"Location": "LocationX",
+		"Description": "Content here"
+	},
+	{
+		"Class": "spkrs",
+		"Time": "2:00PM - 3:00PM",
+		"Category": "Speakers",
+		"Title": "Ending Keynote",
+		"Location": "LocationX",
+		"Description": "Content here"
+
+	}
+]
