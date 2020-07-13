@@ -26,7 +26,9 @@ function build_schedule(data, html) {
 		html+='<th scope="row">' + data[i].Time + '<br><span>' + data[i].Category + '</span></th>';
 		html+='<td colspan="2" class="event"><span>' + data[i].Title + '</span><br>';
 		html+='<span class="loc">' + data[i].Location + '</span></td>';
-		html+='<td class="check">√</td></tr></tbody></table></div>';
+		html+='<td class="cal text-center" style="vertical-align: middle;""><a target="_blank" href="' + data[i].GCal_Event + '">';
+		html+='<i class="fa fa-calendar"></i></a>';
+		html+='</td></tr></tbody></table></div>';
 		html+='<div id="' + data_target +  '" class="collapse" aria-labelledby="' + heading + '" data-parent="#day1">';
 		html+='<div class="card-body ' + data[i].Class + '">' + data[i].Description + '</div></div></div>';
 	}

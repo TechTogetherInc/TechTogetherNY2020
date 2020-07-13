@@ -1,19 +1,20 @@
 [
 	{
-		"Class": "mand",
+		"Class": "univ",
 		"Time": "10:00AM - 2:00PM",
-		"Category": "Mandatory",
+		"Category": "Universal",
 		"Title": "Judging Session",
 		"Location": "LocationX",
-		"Description": "Content here"
+		"Description": "Content here",
+		"GCal_Event": "#"
 	},
 	{
-		"Class": "spkrs",
+		"Class": "activity",
 		"Time": "2:00PM - 3:00PM",
-		"Category": "Speakers",
-		"Title": "Ending Keynote",
+		"Category": "Activity",
+		"Title": "Yoga Session",
 		"Location": "LocationX",
-		"Description": "Content here"
-
+		"Description": "Content here",
+		"GCal_Event": "#"
 	}
 ]

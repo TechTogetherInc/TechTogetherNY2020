@@ -4,11 +4,23 @@ Site for TechTogether NY 2020, built by Technical team
 TO-DOs:
 
 General
-- Finalize color scheme
+- Color scheme
 
 Tentative Schedule
-- Figure out what to do with check-mark
-- Figure out Add to Calendar functionality
+- Add icon for workshops
 
 Site Content
 - Refer to #website-planning channel in Slack
+
+
+EVENT CATEGORIES
+- Universal #51DBF6 (red)
+- Workshop #808CFB (purple)
+- Panel #E73F33 (blue)
+- Activity #FC7361 (peach)
+
+Workshop Levels
+Icon: Star, Computer, Mascot, etc.
+- Beginner (1)
+- Intermediate (2)
+- Advanced (3)

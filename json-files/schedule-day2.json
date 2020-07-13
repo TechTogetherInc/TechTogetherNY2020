@@ -1,11 +1,12 @@
 [
 	{
-		"Class": "spkrs",
+		"Class": "panel",
 		"Time": "12:00PM - 1:00PM",
-		"Category": "Speakers",
-		"Title": "Keynote Presentation",
+		"Category": "Panel",
+		"Title": "Panel on Navigating the Workspace as a Womxn",
 		"Location": "LocationX",
-		"Description": "Content here"
+		"Description": "Content here",
+		"GCal_Event": "#"
 	},
 	{
 		"Class": "wshop",
@@ -13,7 +14,8 @@
 		"Category": "Workshop",
 		"Title": "Technical Resume Reviews",
 		"Location": "LocationX",
-		"Description": "Content here"
+		"Description": "Content here",
+		"GCal_Event": "#"
 
 	}
 ]

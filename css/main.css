@@ -21,7 +21,7 @@ button.btn {
 	font-size: 12px;
 	border-radius: 6px;
 	padding: 6px 24px;
-	transition-duration: 0.3s;
+	transition: all 0.3s ease-in-out; 
 	margin: 8px 0px;
 	padding: 6px 50px;
 }
@@ -68,19 +68,19 @@ tr > th, span.loc {
 	font-weight: 400;
 }
 
-tr.mand, div.mand {
-	border-left: 10px solid #FC7361;
+tr.univ, div.univ {
+	border-left: 10px solid #E73F33;
 }
 
-tr.mand > th > span {
-	color: #FC7361;
+tr.univ > th > span {
+	color: #E73F33;
 }
 
-tr.spkrs, div.spkrs {
+tr.panel, div.panel {
 	border-left: 10px solid #51DBF6;
 }
 
-tr.spkrs > th > span {
+tr.panel > th > span {
 	color: #51DBF6;
 }
 
@@ -90,6 +90,14 @@ tr.wshop, div.wshop {
 
 tr.wshop > th > span {
 	color: #808CFB;
+}
+
+tr.activity, div.activity {
+	border-left: 10px solid #FC7361;
+}
+
+tr.activity > th > span {
+	color: #FC7361;
 }
 
 th,td {
@@ -104,8 +112,12 @@ tr > .event {
 	width: 75%;
 }
 
-tr > .check {
+tr > .cal {
 	width: 5%;
+}
+
+tr > .cal > i {
+	background-color: yellow;
 }
 
 tr > td {
@@ -119,6 +131,25 @@ div.card-header {
 table.table {
 	margin: 0;
 }
+
+card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+
+.cal i {
+	color: #333F9B;
+	font-size: 20px;
+	transition: all 0.3s ease-in-out; 
+}
+
+.cal i:hover {
+	transform: scale(1.1); 
+}
+
+td.cal {
+	vertical-align: middle;
+}
+
 
 /* width of schedule table */
 #day1 .card, #day2 .card, #day3 .card {
@@ -195,13 +226,5 @@ div.card {
     -o-transform:      rotate(180deg);
     transform:         rotate(180deg);
 }
-
-.card-header .fa {
-  transition: .3s transform ease-in-out;
-}
-
-
-
-
 
 
