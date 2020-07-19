@@ -7,7 +7,7 @@ General
 - Color scheme
 
 Tentative Schedule
-- Add icon for workshops
+- Choose icon for workshops
 
 Site Content
 - Refer to #website-planning channel in Slack
@@ -24,3 +24,16 @@ Icon: Star, Computer, Mascot, etc.
 - Beginner (1)
 - Intermediate (2)
 - Advanced (3)
+
+Questions for Kala
+- Font color + choice
+- Section title colors
+- Button colors
+- Button hover colors
+- Tentative Schedule colors
+    - Description for Tentative Schedule
+    - Tentative Schedule 
+    - Width of table
+    - Placement and choice of workshop level icons
+- FAQ hover colors
+- FAQ active colors

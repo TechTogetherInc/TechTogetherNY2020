@@ -1,41 +1,49 @@
-// display tentative schedule by reading JSON file
+// construct HTML for tentative schedule by reading JSON file with schedule information
 $(document).ready (function() {
+	// var counter=0; // to increment collapse/heading ids
 	for (let i=1; i <= 3; i++) {
-		let json_file = "json-files/schedule-day" + i + ".json";
+		let json_file = "json-files/schedule-day" + i + ".json"; // json file for specified day
 		let day = "day" + i;
 		let classes = "accordion";
 		if(i==1) { classes += " active"; } 
 		let html = '<div class="' + classes + '" id="' + day + '">';
 
 		$.getJSON(json_file, function(data) {
-			html += build_schedule(data, html) + '</div>';
+			html = build_schedule(data, html, i) + '</div>';
 			document.getElementById("schedule-content").innerHTML += html;
 		});	
 	}
 });
 
-// build tentative schedule table 
-function build_schedule(data, html) {
+// build tentative schedule table - data is json file 
+function build_schedule(data, html, day) {
 	for (let i=0; i < data.length; i++) {
-		let heading = "heading" + i;
-		let data_target = "collapse" + i;
-
+		let heading = "heading" + day + i;
+		let data_target = "collapse" + day + i;
+		
 		html+='<div class="card"> <div class="card-header" id="' + heading + '">';
 		html+='<table class="table" data-toggle="collapse" data-target="#' + data_target + '" aria-expanded="true">'
 		html+='<tbody><tr class="' + data[i].Class + '">';
 		html+='<th scope="row">' + data[i].Time + '<br><span>' + data[i].Category + '</span></th>';
 		html+='<td colspan="2" class="event"><span>' + data[i].Title + '</span><br>';
-		html+='<span class="loc">' + data[i].Location + '</span></td>';
+		html+='<span>' + data[i].Location + '</span></td>';
+		if (data[i].Class === 'wshop') {	// add level icons for workshops only
+			html +='<td class="level text-left" style="vertical-align: middle;">';
+			for (let j=1; j<=data[i].Level; j++) {
+				html +='<i class="fa fa-star"></i>';
+			}
+			html += '</td>';
+		}
 		html+='<td class="cal text-center" style="vertical-align: middle;""><a target="_blank" href="' + data[i].GCal_Event + '">';
 		html+='<i class="fa fa-calendar"></i></a>';
 		html+='</td></tr></tbody></table></div>';
-		html+='<div id="' + data_target +  '" class="collapse" aria-labelledby="' + heading + '" data-parent="#day1">';
+		html+='<div id="' + data_target +  '" class="collapse" aria-labelledby="' + heading + '" data-parent="#day' + day + '">';
 		html+='<div class="card-body ' + data[i].Class + '">' + data[i].Description + '</div></div></div>';
 	}
 	return html;
 }
 
-// display FAQs section by reading JSON file
+// construct HTML for tentative schedule by reading JSON file with FAQs information
 $(document).ready (function() {
 	$.getJSON("json-files/faqs.json", function(data) {
 		let left_data = data.FAQs_Left;		// array for FAQs in left column

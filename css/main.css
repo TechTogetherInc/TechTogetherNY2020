@@ -60,11 +60,11 @@ button.user-btn.active, button.day-btn.active, button.btn:hover {
 	font-weight: 800;
 }
 
-span.loc {
+/* span.loc {
 	color: #B23027;
-}
+} */
 
-tr > th, span.loc {
+tr > th {
 	font-weight: 400;
 }
 
@@ -112,12 +112,16 @@ tr > .event {
 	width: 75%;
 }
 
-tr > .cal {
-	width: 5%;
+tr.wshop > .event {
+	width: 60% !important;
 }
 
-tr > .cal > i {
-	background-color: yellow;
+tr.wshop > .level {
+	width: 15% !important;
+}
+
+tr > .cal {
+	width: 5%;
 }
 
 tr > td {
@@ -150,10 +154,14 @@ td.cal {
 	vertical-align: middle;
 }
 
+td.level i {
+	margin: 2px;
+}
+
 
 /* width of schedule table */
 #day1 .card, #day2 .card, #day3 .card {
-	width: 60%;
+	width: 52%;
 	margin: auto;
 }
 
@@ -226,5 +234,6 @@ div.card {
     -o-transform:      rotate(180deg);
     transform:         rotate(180deg);
 }
+
 
 
