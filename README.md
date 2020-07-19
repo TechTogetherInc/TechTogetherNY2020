@@ -31,9 +31,8 @@ Questions for Kala
 - Button colors
 - Button hover colors
 - Tentative Schedule colors
-    - Description for Tentative Schedule
-    - Tentative Schedule 
-    - Width of table
-    - Placement and choice of workshop level icons
+- Description for Tentative Schedule
+- Width of table
+- Placement and choice of workshop level icons
 - FAQ hover colors
 - FAQ active colors
