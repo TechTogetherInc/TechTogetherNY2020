@@ -66,19 +66,20 @@ $(document).ready (function() {
 
 // build FAQs section - data is json file, col is L (left col) or R (right col)
 function build_faqs(data, col) {
-	let data_parent = "faq-" + col + "cards";
-	let html = '<div id="' + data_parent + '" class="col-md-6 col-sm-6 col-xs-6">';
+	let data_parent = `faq-${col}cards`;
+	let html = `<div id="${data_parent}" class="col-md-6 col-sm-6 col-xs-6">`;
 
 	for (let i=0; i < data.length; i++) {
-		let heading = "heading" + col + i;
-		let data_target = "collapse" + col + i;
+		
+		let heading = `heading${col}${i}`;
+		let data_target = `collapse${col}${i}`;
 
 		html += '<div class="card text-left">';
 
 		// question on card header
 		html += `<div class="card-header" id="${heading}">`;
 		html += `<button class="btn" type="button" data-toggle="collapse" data-target="#${data_target}" aria-expanded="false">`
-		html += data[i].Question + '<i class="fa fa-caret-down rotate-icon"></i></button></div>';
+		html += `${data[i].Question}<i class="fa fa-caret-down rotate-icon"></i></button></div>`;
 
 		// answer on card body
 		html += `<div id="${data_target}" class="collapse" aria-labelledby="${data_target}" data-parent="#${data_parent}">`;
