@@ -2,11 +2,11 @@
 $(document).ready (function() {
 	// create 3 tables, one for each day
 	for (let i=1; i <= 3; i++) {
-		let json_file = "json-files/schedule-day" + i + ".json"; // json file with event data for specified day
-		let day = "day" + i;
+		let json_file = `json-files/schedule-day${i}.json`; // json file with event data for specified day
+		let day = `day${i}`;
 		let classes = "accordion";
 		if(i==1) { classes += " active"; } 
-		let html = '<div class="' + classes + '" id="' + day + '">';
+		let html = `<div class="${classes}" id="${day}">`;
 
 		$.getJSON(json_file, function(data) {
 			html = build_schedule(data, html, i) + '</div>'; // call method to build table
@@ -18,19 +18,19 @@ $(document).ready (function() {
 // build tentative schedule table - data is contained in json file 
 function build_schedule(data, html, day) {
 	for (let i=0; i < data.length; i++) {
-		let heading = "heading" + day + i;
-		let data_target = "collapse" + day + i;
+		let heading = `heading${day}${i}`;
+		let data_target = `collapse${day}${i}`;
 		
-		html+='<div class="card"> <div class="card-header" id="' + heading + '">';
-		html+='<table class="table" data-toggle="collapse" data-target="#' + data_target + '" aria-expanded="true">'
+		html+=`<div class="card"> <div class="card-header" id="${heading}">`;
+		html+=`<table class="table" data-toggle="collapse" data-target="#${data_target}" aria-expanded="true">`;
 
 		// column with date/time and event category
-		html+='<tbody><tr class="' + data[i].Class + '">';
-		html+='<th scope="row">' + data[i].Time + '<br><span>' + data[i].Category + '</span></th>';
+		html+=`<tbody><tr class="${data[i].Class}">`;
+		html+=`<th scope="row">${data[i].Time}<br><span>${data[i].Category}</span></th>`;
 
 		// column with event title and location
-		html+='<td colspan="2" class="event"><span>' + data[i].Title + '</span><br>';
-		html+='<span>' + data[i].Location + '</span></td>';
+		html+=`<td colspan="2" class="event"><span> ${data[i].Title} </span><br>`;
+		html+=`<span> ${data[i].Location} </span></td>`;
 
 		// add level icons for workshops only
 		if (data[i].Class === 'wshop') {
@@ -42,13 +42,13 @@ function build_schedule(data, html, day) {
 		}
 
 		// column with calendar icon
-		html+='<td class="cal text-center" style="vertical-align: middle;""><a target="_blank" href="' + data[i].GCal_Event + '">';
+		html+=`<td class="cal text-center" style="vertical-align: middle;""><a target="_blank" href="${data[i].GCal_Event}">`;
 		html+='<i class="fa fa-calendar"></i></a>';
 		html+='</td></tr></tbody></table></div>';
-		html+='<div id="' + data_target +  '" class="collapse" aria-labelledby="' + heading + '" data-parent="#day' + day + '">';
+		html+=`<div id="${data_target}" class="collapse" aria-labelledby="${heading}" data-parent="#day${day}">`;
 
 		// card body with event description
-		html+='<div class="card-body ' + data[i].Class + '">' + data[i].Description + '</div></div></div>';
+		html+=`<div class="card-body ${data[i].Class}"> ${data[i].Description} </div></div></div>`;
 	}
 	return html;
 }
@@ -76,13 +76,13 @@ function build_faqs(data, col) {
 		html += '<div class="card text-left">';
 
 		// question on card header
-		html += '<div class="card-header" id="' + 'heading' + '">';
-		html += '<button class="btn" type="button" data-toggle="collapse" data-target="#' + data_target + '" aria-expanded="false">'
+		html += `<div class="card-header" id="${heading}">`;
+		html += `<button class="btn" type="button" data-toggle="collapse" data-target="#${data_target}" aria-expanded="false">`
 		html += data[i].Question + '<i class="fa fa-caret-down rotate-icon"></i></button></div>';
 
 		// answer on card body
-		html += '<div id="' + data_target + '" class="collapse" aria-labelledby="' + data_target + '" data-parent="#' + data_parent + '">';
-		html += '<div class="card-body">' + data[i].Answer + '</div></div></div>';	
+		html += `<div id="${data_target}" class="collapse" aria-labelledby="${data_target}" data-parent="#${data_parent}">`;
+		html += `<div class="card-body"> ${data[i].Answer} </div></div></div>`;	
 	}
 
 	html += '</div>';
