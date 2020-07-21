@@ -1,21 +1,21 @@
 // construct HTML for tentative schedule by reading JSON file with schedule information
 $(document).ready (function() {
-	// var counter=0; // to increment collapse/heading ids
+	// create 3 tables, one for each day
 	for (let i=1; i <= 3; i++) {
-		let json_file = "json-files/schedule-day" + i + ".json"; // json file for specified day
+		let json_file = "json-files/schedule-day" + i + ".json"; // json file with event data for specified day
 		let day = "day" + i;
 		let classes = "accordion";
 		if(i==1) { classes += " active"; } 
 		let html = '<div class="' + classes + '" id="' + day + '">';
 
 		$.getJSON(json_file, function(data) {
-			html = build_schedule(data, html, i) + '</div>';
+			html = build_schedule(data, html, i) + '</div>'; // call method to build table
 			document.getElementById("schedule-content").innerHTML += html;
 		});	
 	}
 });
 
-// build tentative schedule table - data is json file 
+// build tentative schedule table - data is contained in json file 
 function build_schedule(data, html, day) {
 	for (let i=0; i < data.length; i++) {
 		let heading = "heading" + day + i;
@@ -23,21 +23,31 @@ function build_schedule(data, html, day) {
 		
 		html+='<div class="card"> <div class="card-header" id="' + heading + '">';
 		html+='<table class="table" data-toggle="collapse" data-target="#' + data_target + '" aria-expanded="true">'
+
+		// column with date/time and event category
 		html+='<tbody><tr class="' + data[i].Class + '">';
 		html+='<th scope="row">' + data[i].Time + '<br><span>' + data[i].Category + '</span></th>';
+
+		// column with event title and location
 		html+='<td colspan="2" class="event"><span>' + data[i].Title + '</span><br>';
 		html+='<span>' + data[i].Location + '</span></td>';
-		if (data[i].Class === 'wshop') {	// add level icons for workshops only
+
+		// add level icons for workshops only
+		if (data[i].Class === 'wshop') {
 			html +='<td class="level text-left" style="vertical-align: middle;">';
 			for (let j=1; j<=data[i].Level; j++) {
 				html +='<i class="fa fa-star"></i>';
 			}
 			html += '</td>';
 		}
+
+		// column with calendar icon
 		html+='<td class="cal text-center" style="vertical-align: middle;""><a target="_blank" href="' + data[i].GCal_Event + '">';
 		html+='<i class="fa fa-calendar"></i></a>';
 		html+='</td></tr></tbody></table></div>';
 		html+='<div id="' + data_target +  '" class="collapse" aria-labelledby="' + heading + '" data-parent="#day' + day + '">';
+
+		// card body with event description
 		html+='<div class="card-body ' + data[i].Class + '">' + data[i].Description + '</div></div></div>';
 	}
 	return html;
@@ -49,7 +59,7 @@ $(document).ready (function() {
 		let left_data = data.FAQs_Left;		// array for FAQs in left column
 		let right_data = data.FAQs_Right;	// array for FAQs in right column
 
-		let html = build_faqs(left_data, "L") + build_faqs(right_data, "R");
+		let html = build_faqs(left_data, "L") + build_faqs(right_data, "R");	// call methods to build FAQ cards
 		document.getElementById("faqs-content").innerHTML = html;
 	});
 });
@@ -64,9 +74,13 @@ function build_faqs(data, col) {
 		let data_target = "collapse" + col + i;
 
 		html += '<div class="card text-left">';
+
+		// question on card header
 		html += '<div class="card-header" id="' + 'heading' + '">';
 		html += '<button class="btn" type="button" data-toggle="collapse" data-target="#' + data_target + '" aria-expanded="false">'
 		html += data[i].Question + '<i class="fa fa-caret-down rotate-icon"></i></button></div>';
+
+		// answer on card body
 		html += '<div id="' + data_target + '" class="collapse" aria-labelledby="' + data_target + '" data-parent="#' + data_parent + '">';
 		html += '<div class="card-body">' + data[i].Answer + '</div></div></div>';	
 	}
