@@ -1,46 +1,60 @@
+#temp-header { /* simulate header */
+	text-align: center;
+	background-color: #45B8CF;
+	height: 80px;
+}
+
+body {
+	background-color: rgba(252, 252, 252, 1) !important;
+}
+
+/* STYLING FOR SECTION NAME */
 .section-name {
 	font-family: 'Barlow', sans-serif;
-	color: #FF5B4F;
+	color: #707AD9;
 	font-size: 24px;
 	text-align: center;
 	margin: 50px 0px 10px 0px;
 }
 
-#get-involved, #schedule {
-	font-family: 'Roboto', sans-serif;
+/* GENERAL STYLING FOR BODY */
+#get-involved, #schedule, #faqs {
+	font-family: 'Karla', sans-serif;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 12px; /* FONT SIZE */
 	color: #333F9B;
 }
 
-/* button tabs */
+/* BUTTON STYLE */
 button.btn {
-	border: 1.25px solid #333F9B;
-	color: #FFFFFF;
-	background-color: #333F9B;
-	font-size: 12px;
+	border: 1.25px solid #9CE4F3; /* BUTTON BORDER COLOR */
+	color:#333F9B; /* BUTTON TEXT COLOR */
+	background-color: #9CE4F3; /* BUTTON COLOR */
+	font-size: 12px; /* BUTTON TEXT SIZE */
 	border-radius: 6px;
-	padding: 6px 24px;
+	padding: 6px 50px; /* BUTTON PADDING */
+	margin: 8px 0px; /* BUTTON MARGINS */
 	transition: all 0.3s ease-in-out; 
-	margin: 8px 0px;
-	padding: 6px 50px;
 }
 
-
+/* BUTTON HOVER & ACTIVE COLORS */
 button.user-btn.active, button.day-btn.active, button.btn:hover {
-	color: #333F9B;
+	color: #333F9B; 
 	background-color: #EFEFF4;
 }
 
+/* BUTTON WIDTH */
 #get-involved .col-md-6 .btn {
 	width: 50%;
 }
 
+/******* tentative schedule section *******/
+
+/* DAY1, DAY2, DAY3 WIDTH */
 #schedule .btn-group {
 	width: 40%;
 }
 
-/* schedule content */
 #schedule-content > div {
 	display: none;
 }
@@ -50,32 +64,28 @@ button.user-btn.active, button.day-btn.active, button.btn:hover {
 	margin: 20px;
 }
 
-/* tentative schedule */
+
 .table {
 	border-bottom: 1px solid #DEE2E6;
 	border-right: 1px solid #DEE2E6;
 }
 
+/* event name */
 .event > span:nth-child(1) {
 	font-weight: 800;
 }
 
-/* span.loc {
-	color: #B23027;
-} */
-
-tr > th {
-	font-weight: 400;
-}
-
+/* COLOR CODING for 4 event types */
+/* univeral event */
 tr.univ, div.univ {
-	border-left: 10px solid #E73F33;
+	border-left: 10px solid #E73F33; 
 }
 
 tr.univ > th > span {
 	color: #E73F33;
 }
 
+/* panel event */
 tr.panel, div.panel {
 	border-left: 10px solid #51DBF6;
 }
@@ -84,6 +94,7 @@ tr.panel > th > span {
 	color: #51DBF6;
 }
 
+/* workshop event */
 tr.wshop, div.wshop {
 	border-left: 10px solid #808CFB;
 }
@@ -92,6 +103,7 @@ tr.wshop > th > span {
 	color: #808CFB;
 }
 
+/* special activity event */
 tr.activity, div.activity {
 	border-left: 10px solid #FC7361;
 }
@@ -100,26 +112,33 @@ tr.activity > th > span {
 	color: #FC7361;
 }
 
+/* font color for table cell */
 th,td {
 	color: #333F9B;
 }
 
+/* 1st column of table: includes time and event type */
 tr > th {
+	font-weight: 400;
 	width: 20%;
 }
 
+/* 2nd column of table: includes event title & location */
 tr > .event {
 	width: 75%;
 }
 
+/* if event is workshop, make 2nd column smaller so extra col can be added */
 tr.wshop > .event {
 	width: 60% !important;
 }
 
+/* if event is workshop, include extra column for workshop level (stars) */
 tr.wshop > .level {
 	width: 15% !important;
 }
 
+/* last column is calendar button */
 tr > .cal {
 	width: 5%;
 }
@@ -140,6 +159,7 @@ card-header .fa {
   transition: .3s transform ease-in-out;
 }
 
+/* style of calendar icon */
 .cal i {
 	color: #333F9B;
 	font-size: 20px;
@@ -165,6 +185,7 @@ td.level i {
 	margin: auto;
 }
 
+/* background color for table row (i.e. each event card) */
 #schedule div.card-header {
 	background-color: #EFEFF4;
 }
@@ -186,20 +207,22 @@ div.card {
 	border-bottom: 1px solid #DEE2E6;
 }
 
-/* FAQ section */
+/****** FAQ section ******/
+/* STYLE FOR EACH CARD HEADER (QUESTION) */
 #faqs .card-header button.btn {
-	width: 100%;
+	width: 100%; 
 	margin: 0px;
 	border-radius: 4px;
 	padding-left: 20px;
 	text-align: left;
-	font-weight: 800;
+	font-weight: 525;
 	height: 50px;
 }
 
+/* STYLE FOR QUESTION TEXT */
 #faqs .card {
 	color: #FFFFFF;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 12px;
 }
 
@@ -209,6 +232,7 @@ div.card {
 	margin-top: 20px;
 }
 
+/* STYLE FOR CARD BODY/ANSWER TEXT */
 #faqs .card .card-body {
 	background-color: #EFEFF4;
 	color: #333F9B;
