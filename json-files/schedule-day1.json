@@ -1,0 +1,21 @@
+[
+	{
+		"Class": "univ",
+		"Time": "9:00AM - 10:00AM",
+		"Category": "Universal",
+		"Title": "Registration for Hackers",
+		"Location": "LocationX",
+		"Description": "Content here",
+		"GCal_Event": "https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MDViZ3ZvZDIwbXI3ZGUyM3JhcXBkbDkzMnIgc2hhbm5vbmhlaDI2QG0&amp;tmsrc=shannonheh26%40gmail.com"
+	},
+	{
+		"Class": "wshop",
+		"Time": "10:00AM - 11:00AM",
+		"Category": "Workshop",
+		"Title": "Web Dev 101: Where Do I Start?",
+		"Location": "LocationX",
+		"Level": 1,
+		"Description": "Content here",
+		"GCal_Event": "https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MDViZ3ZvZDIwbXI3ZGUyM3JhcXBkbDkzMnIgc2hhbm5vbmhlaDI2QG0&amp;tmsrc=shannonheh26%40gmail.com"
+	}
+]

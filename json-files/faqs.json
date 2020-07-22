@@ -1,0 +1,22 @@
+{	
+	"FAQs_Left": [
+		{
+			"Question": "What is a virtual hackathon?",
+			"Answer": "Whether you’re just getting started or you’ve been programming since an early age, virtual hackathons are a great place to learn new skills, build your network, find jobs, and have fun (Source: MLH, Welcome to the 2020 Hackathon Season)."
+		},
+		{
+			"Question": "Who can participate?",
+			"Answer": "This hackathon is for women (cis & trans) and non-binary partcipants only. Men are welcome to mentor or participate as sponsors."
+		}
+	],
+	"FAQs_Right": [
+		{
+			"Question": "Is there anything I need to prep?",
+			"Answer": "No experience is required to attend this event. While experience coding and programming is a huge plus, it is not necessary to be a part of this event."
+		},
+		{
+			"Question": "How much does it cost?",
+			"Answer": "Nothing! Thanks to our amazing sponsors, HobbyHacks is free to attend."
+		}
+	]
+}
