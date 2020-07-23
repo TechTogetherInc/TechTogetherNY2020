@@ -1,193 +1,208 @@
-#temp-header { /* simulate header */
-	text-align: center;
-	background-color: #45B8CF;
-	height: 80px;
+#temp-header {
+  /* simulate header */
+  text-align: center;
+  background-color: #45b8cf;
+  height: 80px;
 }
 
 body {
-	background-color: rgba(252, 252, 252, 1) !important;
+  background-color: rgba(252, 252, 252, 1) !important;
 }
 
 /* STYLING FOR SECTION NAME */
 .section-name {
-	font-family: 'Barlow', sans-serif;
-	color: #707AD9;
-	font-size: 24px;
-	text-align: center;
-	margin: 50px 0px 10px 0px;
+  font-family: "Barlow", sans-serif;
+  color: #58d1eb;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 0px 10px 0px;
+  font-weight: 800;
 }
 
 /* GENERAL STYLING FOR BODY */
-#get-involved, #schedule, #faqs {
-	font-family: 'Karla', sans-serif;
-	font-weight: 400;
-	font-size: 12px; /* FONT SIZE */
-	color: #333F9B;
+#get-involved,
+#schedule,
+#faqs {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 12px; /* FONT SIZE */
+  color: #333f9b;
 }
 
 /* BUTTON STYLE */
 button.btn {
-	border: 1.25px solid #9CE4F3; /* BUTTON BORDER COLOR */
-	color:#333F9B; /* BUTTON TEXT COLOR */
-	background-color: #9CE4F3; /* BUTTON COLOR */
-	font-size: 12px; /* BUTTON TEXT SIZE */
-	border-radius: 6px;
-	padding: 6px 50px; /* BUTTON PADDING */
-	margin: 8px 0px; /* BUTTON MARGINS */
-	transition: all 0.3s ease-in-out; 
+  color: #ffffff; /* BUTTON TEXT COLOR */
+  background-color: #9ce4f3; /* BUTTON COLOR */
+  font-size: 1rem; /* BUTTON TEXT SIZE */
+  border-radius: 6px;
+  padding: 13px 50px; /* BUTTON PADDING */
+  margin: 8px 0px; /* BUTTON MARGINS */
+  transition: all 0.3s ease-in-out;
+  font-weight: 800;
 }
 
 /* BUTTON HOVER & ACTIVE COLORS */
-button.user-btn.active, button.day-btn.active, button.btn:hover {
-	color: #333F9B; 
-	background-color: #EFEFF4;
+button.user-btn.active,
+button.day-btn.active,
+button.btn:hover {
+  color: #58d1eb;
+  background-color: #e0f7fb;
 }
 
 /* BUTTON WIDTH */
 #get-involved .col-md-6 .btn {
-	width: 50%;
+  width: 50%;
 }
 
 /******* tentative schedule section *******/
 
+#schedule {
+  font-size: 0.9rem;
+}
+
 /* DAY1, DAY2, DAY3 WIDTH */
 #schedule .btn-group {
-	width: 40%;
+  width: 40%;
 }
 
 #schedule-content > div {
-	display: none;
+  display: none;
 }
 
 #schedule-content > div.active {
-	display: block;
-	margin: 20px;
+  display: block;
+  margin: 20px;
 }
 
-
 .table {
-	border-bottom: 1px solid #DEE2E6;
-	border-right: 1px solid #DEE2E6;
+  border-bottom: 1px solid #98a2fb;
+  border-right: 1px solid #98a2fb;
 }
 
 /* event name */
 .event > span:nth-child(1) {
-	font-weight: 800;
+  font-weight: 800;
 }
 
 /* COLOR CODING for 4 event types */
 /* univeral event */
-tr.univ, div.univ {
-	border-left: 10px solid #E73F33; 
+tr.univ,
+div.univ {
+  border-left: 10px solid #e73f33;
 }
 
 tr.univ > th > span {
-	color: #E73F33;
+  color: #e73f33;
 }
 
 /* panel event */
-tr.panel, div.panel {
-	border-left: 10px solid #51DBF6;
+tr.panel,
+div.panel {
+  border-left: 10px solid #51dbf6;
 }
 
 tr.panel > th > span {
-	color: #51DBF6;
+  color: #51dbf6;
 }
 
 /* workshop event */
-tr.wshop, div.wshop {
-	border-left: 10px solid #808CFB;
+tr.wshop,
+div.wshop {
+  border-left: 10px solid #808cfb;
 }
 
 tr.wshop > th > span {
-	color: #808CFB;
+  color: #808cfb;
 }
 
 /* special activity event */
-tr.activity, div.activity {
-	border-left: 10px solid #FC7361;
+tr.activity,
+div.activity {
+  border-left: 10px solid #58d1eb;
 }
 
 tr.activity > th > span {
-	color: #FC7361;
+  color: #58d1eb;
 }
 
 /* font color for table cell */
-th,td {
-	color: #333F9B;
+th,
+td {
+  color: #98a2fb;
 }
 
 /* 1st column of table: includes time and event type */
 tr > th {
-	font-weight: 400;
-	width: 20%;
+  font-weight: 400;
+  width: 20%;
 }
 
 /* 2nd column of table: includes event title & location */
 tr > .event {
-	width: 75%;
+  width: 75%;
 }
 
 /* if event is workshop, make 2nd column smaller so extra col can be added */
 tr.wshop > .event {
-	width: 60% !important;
+  width: 60% !important;
 }
 
 /* if event is workshop, include extra column for workshop level (stars) */
 tr.wshop > .level {
-	width: 15% !important;
+  width: 15% !important;
 }
 
 /* last column is calendar button */
 tr > .cal {
-	width: 5%;
+  width: 5%;
 }
 
 tr > td {
-	width: 100%;
+  width: 100%;
 }
 
 div.card-header {
-	padding: 0;
+  padding: 0;
 }
 
 table.table {
-	margin: 0;
+  margin: 0;
 }
 
 card-header .fa {
-  transition: .3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
 }
 
 /* style of calendar icon */
 .cal i {
-	color: #333F9B;
-	font-size: 20px;
-	transition: all 0.3s ease-in-out; 
+  color: #98a2fb;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .cal i:hover {
-	transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 td.cal {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 td.level i {
-	margin: 2px;
+  margin: 2px;
 }
 
-
 /* width of schedule table */
-#day1 .card, #day2 .card, #day3 .card {
-	width: 52%;
-	margin: auto;
+#day1 .card,
+#day2 .card,
+#day3 .card {
+  width: 52%;
+  margin: auto;
 }
 
 /* background color for table row (i.e. each event card) */
 #schedule div.card-header {
-	background-color: #EFEFF4;
+  background-color: #f6f7ff;
 }
 
 div.card {
@@ -197,67 +212,64 @@ div.card {
   min-width: 0;
   word-wrap: break-word;
   background-color: transparent;
-  border: 0px solid transparent; 
+  border: 0px solid transparent;
   border-radius: 0.25rem;
-
 }
 
 #schedule div.card-body {
-	border-right: 1px solid #DEE2E6;
-	border-bottom: 1px solid #DEE2E6;
+  border-right: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
 }
 
 /****** FAQ section ******/
 /* STYLE FOR EACH CARD HEADER (QUESTION) */
 #faqs .card-header button.btn {
-	width: 100%; 
-	margin: 0px;
-	border-radius: 4px;
-	padding-left: 20px;
-	text-align: left;
-	font-weight: 525;
-	height: 50px;
+  width: 100%;
+  margin: 0px;
+  border-radius: 4px;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: 525;
+  height: 50px;
 }
 
 /* STYLE FOR QUESTION TEXT */
 #faqs .card {
-	color: #FFFFFF;
-	font-family: 'Karla', sans-serif;
-	font-size: 12px;
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-size: 12px;
 }
 
 #faqs .card .card-header {
-	background-color: transparent;
-	border-color: transparent;
-	margin-top: 20px;
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 20px;
 }
 
 /* STYLE FOR CARD BODY/ANSWER TEXT */
 #faqs .card .card-body {
-	background-color: #EFEFF4;
-	color: #333F9B;
-	border: 1px solid #333F9B;
-	border-top: transparent;
-	border-radius: 4px;
-	border-top-right-radius: 0px;
-	border-top-left-radius: 0px;
+  background-color: #f1fbfd;
+  color: #58d1eb;
+  /* border: 1px solid #333f9b; */
+  border-top: transparent;
+  border-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1.5rem;
 }
-
 
 .fa-caret-down {
-	font-size: 18px;
-	float: right;
-	margin-right: -30px;
+  font-size: 18px;
+  float: right;
+  margin-right: -30px;
 }
 
-[data-toggle="collapse"][aria-expanded="true"] > .rotate-icon
-{
-    -webkit-transform: rotate(180deg);
-    -moz-transform:    rotate(180deg);
-    -ms-transform:     rotate(180deg);
-    -o-transform:      rotate(180deg);
-    transform:         rotate(180deg);
+[data-toggle="collapse"][aria-expanded="true"] > .rotate-icon {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
-
-
-
