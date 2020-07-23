@@ -78,8 +78,9 @@ button.btn:hover {
 }
 
 .table {
-  border-bottom: 0.75px solid #b3bafa;
-  border-right: 0.75px solid #b3bafa;
+  /* border-bottom: 0.75px solid #b3bafa;
+  border-right: 0.75px solid #b3bafa; */
+  color: #98a2fb !important;
 }
 
 /* add to calendar button */
@@ -128,11 +129,11 @@ tr.panel > th > span {
 /* workshop event */
 tr.wshop,
 div.wshop {
-  border-left: 10px solid #FDA094;
+  border-left: 10px solid #fda094;
 }
 
 tr.wshop > th > span {
-  color: #FDA094;
+  color: #fda094;
 }
 
 /* special activity event */
@@ -148,7 +149,17 @@ tr.activity > th > span {
 /* font color for table cell */
 th,
 td {
-  color: #98a2fb;
+  /* color: #98a2fb; */
+}
+
+/* Remove default gray-ish border-top property */
+.table td,
+.table th {
+  border-top: none !important;
+}
+
+.table tr {
+  padding: 20px 0 !important;
 }
 
 /* 1st column of table: includes time and event type */
@@ -218,6 +229,13 @@ td.level i {
 #day3 .card {
   width: 52%;
   margin: auto;
+  border-left: 2px solid #98a2fb;
+  border-right: 2px solid #98a2fb;
+  border-bottom: 2px solid #98a2fb;
+}
+
+#first-card {
+  border-top: 2px solid #98a2fb;
 }
 
 /* background color for table row (i.e. each event card) */
@@ -238,13 +256,14 @@ div.card {
 }
 
 /* border colors cont */
-#schedule div.card-body {
-  border-right: 0.75px solid #b3bafa;
-  border-bottom: 0.75px solid #b3bafa;
+#schedule div.card-body.panel {
+  /* border-right: 0.75px solid #b3bafa;
+  border-bottom: 0.75px solid #b3bafa; */
+  border-top: none !important;
 }
 
 #first-card {
-  border-top: 1px solid #b3bafa;
+  /* border-top: 1px solid #b3bafa; */
 }
 
 /****** FAQ section ******/
@@ -298,4 +317,8 @@ div.card {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+#add-to-calendar-icon-container:hover {
+  background-color: #e0f7fb;
 }
