@@ -67,7 +67,7 @@ button.btn:hover {
   width: 40%;
 }
 
-#schedule-content > div:not(:first-child) {
+#schedule-content > div {
   display: none;
 }
 
