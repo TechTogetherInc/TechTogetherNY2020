@@ -23,7 +23,8 @@ function build_schedule(data, html, day) {
     let heading = `heading${day}${i}`;
     let data_target = `collapse${day}${i}`;
 
-    html += `<div class="card"> <div class="card-header" id="${heading}">`;
+    let addId = i == 0 ? 'id="first-card"' : '';
+    html += `<div class="card" ${addId}> <div class="card-header" id="${heading}">`;
     html += `<table class="table" data-toggle="collapse" data-target="#${data_target}" aria-expanded="true">`;
 
     // column with date/time and event category
@@ -37,9 +38,6 @@ function build_schedule(data, html, day) {
     // add level icons for workshops only
     if (data[i].Class === "wshop") {
       html += '<td class="level text-left" style="vertical-align: middle;">';
-      //   for (let j = 1; j <= data[i].Level; j++) {
-      //     html += '<i class="fa fa-star"></i>';
-      //   }
       const levelToLabelMap = {
         1: "Beginner",
         2: "Intermediate",
