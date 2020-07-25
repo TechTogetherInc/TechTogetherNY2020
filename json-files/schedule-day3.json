@@ -5,7 +5,7 @@
 		"Category": "Universal",
 		"Title": "Judging Session",
 		"Location": "LocationX",
-		"Description": "Content here",
+		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
 		"GCal_Event": "#"
 	},
 	{
@@ -14,7 +14,7 @@
 		"Category": "Activity",
 		"Title": "Yoga Session",
 		"Location": "LocationX",
-		"Description": "Content here",
+		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
 		"GCal_Event": "#"
 	}
 ]

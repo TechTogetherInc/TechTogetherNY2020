@@ -13,7 +13,7 @@ body {
 /* STYLING FOR SECTION NAME */
 .section-name {
   font-family: "Barlow", sans-serif;
-  color: #58d1eb;
+  color: #45b8cf;
   font-size: 30px;
   text-align: center;
   margin: 50px 0px 10px 0px;
@@ -251,7 +251,6 @@ div.card {
   background-color: transparent;
   border: 0px solid transparent;
   border-radius: 0.25rem;
-  /* border-collapse: separate; */
 }
 
 /* border colors cont */
@@ -263,6 +262,30 @@ div.card {
 
 #first-card {
   /* border-top: 1px solid #b3bafa; */
+}
+
+div.card-body {
+  background-color: #f6f7ff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+div.card-body.univ {
+  color: #8dbaf1;
+}
+
+div.card-body.wshop {
+  color: #fda094;
+}
+
+div.card-body.panel {
+  color: #f196db;
+}
+
+div.card-body.activity {
+  color: #81d88a;
 }
 
 /****** FAQ section ******/
@@ -318,6 +341,23 @@ div.card {
   transform: rotate(180deg);
 }
 
+/* add all events to calendar  */
+#add-to-calendar-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border-radius: 100%;
+}
+
+#add-to-calendar-icon-container i {
+  color: #45b8cf;
+}
+
 #add-to-calendar-icon-container:hover {
   background-color: #e0f7fb;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
 }
+

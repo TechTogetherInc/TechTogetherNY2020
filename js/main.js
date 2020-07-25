@@ -115,3 +115,8 @@ for (var i = 0; i < btns.length; i++) {
     document.getElementById(btn_name).className += " active";
   });
 }
+
+// enables tooltips
+$(document).ready(function() {
+  $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
