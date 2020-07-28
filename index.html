@@ -84,12 +84,24 @@
     <section id="schedule">
       <div>
         <h2 class="section-name">
-          Tentative Schedule
+          Tentative Schedule 
           <div style="display: inline-block;">
-            <div id="add-to-calendar-icon-container" alt='hi'>
-              <a href="#" data-toggle="tooltip" title="Add All to Calendar" data-placement="right">
+            <div
+              id="add-to-calendar-icon-container"
+              alt="hi"
+              class="custom-tooltip"
+            >
+              <!-- <a
+                href="#"
+                data-toggle="tooltip"
+                title="Add All to Calendar"
+                data-placement="right"
+                class="test"
+              >
                 <i class="far fa-calendar-plus"></i>
-              </a>
+              </a> -->
+              <i class="far fa-calendar-plus"></i>
+              <span class="custom-tooltip-text">Add All to Calendar</span>
             </div>
           </div>
         </h2>
@@ -112,7 +124,8 @@
           </button>
         </div>
       </div>
-      <div id="schedule-content"></div><!-- refer to main.js -->
+      <div id="schedule-content"></div>
+      <!-- refer to main.js -->
     </section>
 
     <!-- FAQs section -->
