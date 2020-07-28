@@ -361,3 +361,43 @@ div.card-body.activity {
   cursor: pointer;
 }
 
+/* Tooltip container */
+.custom-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #e0f7fb;
+  color: #45b8cf;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  /* Position tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.custom-tooltip:hover .custom-tooltip-text {
+  visibility: visible;
+}
+
+.custom-tooltip .custom-tooltip-text {
+  top: 15%;
+  left: 120%;
+}
+
+/* Add arrow to the bottom of the tooltip */
+.custom-tooltip .custom-tooltip-text::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #e0f7fb transparent transparent;
+}

@@ -23,7 +23,7 @@ function build_schedule(data, html, day) {
     let heading = `heading${day}${i}`;
     let data_target = `collapse${day}${i}`;
 
-    let addId = i == 0 ? 'id="first-card"' : '';
+    let addId = i == 0 ? 'id="first-card"' : "";
     html += `<div class="card" ${addId}> <div class="card-header" id="${heading}">`;
     html += `<table class="table" data-toggle="collapse" data-target="#${data_target}" aria-expanded="true">`;
 
@@ -117,6 +117,6 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 // enables tooltips
-$(document).ready(function() {
-  $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+$(document).ready(function () {
+  $("body").tooltip({ selector: "[data-toggle=tooltip]" });
 });
