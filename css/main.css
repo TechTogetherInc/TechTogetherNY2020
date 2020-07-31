@@ -514,3 +514,54 @@
    border-style: solid;
    border-color: transparent #e0f7fb transparent transparent;
  }
+
+ .sponsor-logo {
+     -webkit-filter: grayscale(100%);
+     -moz-filter:    grayscale(100%);
+     -ms-filter:     grayscale(100%);
+     -o-filter:      grayscale(100%);
+     filter: gray;
+     width: 110px;
+    transition: transform .2s;
+    margin: 20px;
+ }
+
+ /* Saturate sponsor logos on hover */
+ .sponsor-logo:hover {
+     filter: none;
+     -webkit-filter: grayscale(0%);
+     -moz-filter:    grayscale(0%);
+     -ms-filter:     grayscale(0%);
+     -o-filter:      grayscale(0%);
+     cursor: pointer;
+     transform: scale(1.2);
+ }
+
+/* Center sponsor logos */
+ #sponsor-div {
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+ }
+
+#footer {
+  background-color: #9ce4f3;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icon {
+  width: 40px;
+  margin: 15px;
+}
+
+#social-icons {
+  margin-left: 50px;
+}
+
+#footer-note {
+  margin: 0;
+  margin-right: 20px;
+}
