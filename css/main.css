@@ -4,17 +4,18 @@
     outline: solid #f00 1px !important;
   } */
 
-#temp-header { /* simulate header */
-	text-align: center;
-	background-color: #45B8CF;
-	height: 80px;
-}
+ #temp-header {
+   /* simulate header */
+   text-align: center;
+   background-color: #45B8CF;
+   height: 80px;
+ }
 
-#logo {
-	width:200px;
-}
+ #logo {
+   width: 200px;
+ }
 
-/* #top-menu-dropdown {
+ /* #top-menu-dropdown {
     display: none;
     border:0px;
     outline:0px;
@@ -29,322 +30,487 @@
 	}
 } */
 
-body {
-	background-color: rgba(252, 252, 252, 1) !important;
-	width: 100%;
-  	margin: 0;
-	padding: 0px;
-	color: #333F9B;
-	font-family: 'Karla', sans-serif;
-}
+ body {
+   background-color: rgba(252, 252, 252, 1) !important;
+   width: 100%;
+   margin: 0;
+   padding: 0px;
+   color: #333F9B;
+   font-family: 'Karla', sans-serif;
+ }
 
-/* STYLING FOR SECTION NAME */
-.section-name {
-	font-family: 'Barlow', sans-serif;
-	color: #707AD9;
-	/* font-size: 24px; */
-	text-align: center;
-	margin: 3em 0px 10px 0px;
-}
+ .navbar-light .navbar-toggler {
+   border-color: rgba(255, 255, 255, 0) !important;
+ }
 
-/* GENERAL STYLING FOR BODY */
-#get-involved, #schedule, #faqs {
-	font-family: 'Karla', sans-serif;
-	font-weight: 400;
-	font-size: 12px; /* FONT SIZE */
-	color: #333F9B;
-}
+ .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+ }
 
-input[type=email] {
-	width: 50%;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 4px;
-	font-size: 14px;
-	background-color: white;
-	background-image: url('https://img.icons8.com/color/48/000000/filled-sent.png');
-	background-position: 0px 0px; 
-	background-repeat: no-repeat;
-	padding: 12px 20px 12px 40px;
-	transition: width 0.4s ease-in-out;
-  }
-  
-  input[type=email]:focus {
-	width: 100%;
-  }
-  /* button {
-	  color: #FFFFFF;
-	  background-color: #333F9B;
-	  
-	border: none;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	
-	font-size: 2vw;
-	  border: none;
-	  border-radius: 6px;
-	  padding: 6px 24px;
-	  margin: 8px 0px;
-  } */
+ .navbar-nav>li>a:link {
+   color: #ffffff !important;
+ }
 
-  #mc_embed_signup input.button {
-	border: 1.25px solid #9CE4F3; /* BUTTON BORDER COLOR */
-	color:#333F9B; /* BUTTON TEXT COLOR */
-	background-color: #9CE4F3; /* BUTTON COLOR */
-	font-size: 12px; /* BUTTON TEXT SIZE */
-	border-radius: 6px;
-	padding: 6px 50px; /* BUTTON PADDING */
-	margin: 8px 0px; /* BUTTON MARGINS */
-	transition: all 0.3s ease-in-out; 
-}
-#mc_embed_signup input.button:hover {
-	color: #333F9B; 
-	background-color: #EFEFF4;
-}
-#mc_embed_signup input.button {
-	/* font-weight: 800; */
-	/* font-size: 16px; */
-}
+ .navbar-nav>li>a:hover {
+   color: #58d1eb !important;
+ }
 
+ input[type=email] {
+   width: 75%;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   font-size: 14px;
+   background-color: white;
+   background-image: url(../img/mail.svg);
+   background-size: 30px;
+   background-position: 5px 5px;
+   background-repeat: no-repeat;
+   padding: 12px 20px 12px 40px;
+   transition: width 0.4s ease-in-out;
+ }
 
-/* BUTTON STYLE */
-button.btn {
-	border: 1.25px solid #9CE4F3; /* BUTTON BORDER COLOR */
-	color:#333F9B; /* BUTTON TEXT COLOR */
-	background-color: #9CE4F3; /* BUTTON COLOR */
-	font-size: 12px; /* BUTTON TEXT SIZE */
-	border-radius: 6px;
-	padding: 6px 50px; /* BUTTON PADDING */
-	margin: 8px 0px; /* BUTTON MARGINS */
-	transition: all 0.3s ease-in-out; 
-}
+ input[type=email]:focus {
+   width: 100%;
+   /* background-size: 30px; */
+ }
 
-/* BUTTON HOVER & ACTIVE COLORS */
-button.user-btn.active, button.day-btn.active, button.btn:hover {
-	color: #333F9B; 
-	background-color: #EFEFF4;
-}
+ #mailchimp-button {
+   border: 0px solid #9CE4F3;
+   /* BUTTON BORDER COLOR */
+   color: #ffffff;
+   /* BUTTON TEXT COLOR */
+   background-color: #9ce4f3;
+   /* BUTTON COLOR */
+   font-size: 1rem;
+   /* BUTTON TEXT SIZE */
+   border-radius: 6px;
+   padding: 13px 50px;
+   /* BUTTON PADDING */
+   margin: 8px 0px;
+   /* BUTTON MARGINS */
+   transition: all 0.3s ease-in-out;
+   font-weight: 800;
+ }
 
-/* BUTTON WIDTH */
-#get-involved .col-md-6 .btn {
-	width: 50%;
-}
+ #mailchimp-button:hover {
+   color: #58d1eb;
+   background-color: #e0f7fb;
+ }
 
-/******* tentative schedule section *******/
+ /* STYLING FOR SECTION NAME */
 
-/* DAY1, DAY2, DAY3 WIDTH */
-#schedule .btn-group {
-	width: 40%;
-}
+ .section-name {
+   font-family: 'Barlow', sans-serif;
+   font-weight: 800;
+   /* color: #707AD9; */
+   color: #45b8cf;
+   font-size: 30px;
+   /* font-size: 24px; */
+   text-align: center;
+   margin: 3em 0px 10px 0px;
+ }
 
-#schedule-content > div {
-	display: none;
-}
+ /* GENERAL STYLING FOR BODY */
 
-#schedule-content > div.active {
-	display: block;
-	margin: 20px;
-}
+ #get-involved, #schedule, #faqs {
+   font-family: "Karla", sans-serif;
+   font-weight: 400;
+   font-size: 13px;
+   /* FONT SIZE */
+   color: #333f9b;
+ }
 
+ /* BUTTON STYLE */
 
-.table {
-	border-bottom: 1px solid #DEE2E6;
-	border-right: 1px solid #DEE2E6;
-}
+ button.btn {
+   color: #ffffff;
+   /* BUTTON TEXT COLOR */
+   background-color: #9ce4f3;
+   /* BUTTON COLOR */
+   font-size: 1rem;
+   /* BUTTON TEXT SIZE */
+   border-radius: 6px;
+   padding: 13px 50px;
+   /* BUTTON PADDING */
+   margin: 8px 0px;
+   /* BUTTON MARGINS */
+   transition: all 0.3s ease-in-out;
+   font-weight: 800;
+ }
 
-/* event name */
-.event > span:nth-child(1) {
-	font-weight: 800;
-}
+ /* BUTTON HOVER & ACTIVE COLORS */
 
-/* COLOR CODING for 4 event types */
-/* univeral event */
-tr.univ, div.univ {
-	border-left: 10px solid #E73F33; 
-}
+ button.user-btn.active, button.day-btn.active, button.btn:hover {
+   color: #58d1eb;
+   background-color: #e0f7fb;
+ }
 
-tr.univ > th > span {
-	color: #E73F33;
-}
+ /* BUTTON WIDTH */
 
-/* panel event */
-tr.panel, div.panel {
-	border-left: 10px solid #51DBF6;
-}
+ #get-involved .col-md-6 .btn {
+   width: 50%;
+ }
 
-tr.panel > th > span {
-	color: #51DBF6;
-}
+ /******* tentative schedule section *******/
 
-/* workshop event */
-tr.wshop, div.wshop {
-	border-left: 10px solid #808CFB;
-}
+ #schedule {
+   font-size: 0.9rem;
+ }
 
-tr.wshop > th > span {
-	color: #808CFB;
-}
+ /* DAY1, DAY2, DAY3 WIDTH */
 
-/* special activity event */
-tr.activity, div.activity {
-	border-left: 10px solid #FC7361;
-}
+ #schedule .btn-group {
+   width: 40%;
+ }
 
-tr.activity > th > span {
-	color: #FC7361;
-}
+ #schedule-content>div {
+   display: none;
+ }
 
-/* font color for table cell */
-th,td {
-	color: #333F9B;
-}
+ #schedule-content>div.active {
+   display: block;
+   margin-top: 10px;
+ }
 
-/* 1st column of table: includes time and event type */
-tr > th {
-	font-weight: 400;
-	width: 20%;
-}
+ .table {
+   /* border-bottom: 0.75px solid #b3bafa;
+  border-right: 0.75px solid #b3bafa; */
+   color: #98a2fb !important;
+ }
 
-/* 2nd column of table: includes event title & location */
-tr > .event {
-	width: 75%;
-}
+ /* add to calendar button */
 
-/* if event is workshop, make 2nd column smaller so extra col can be added */
-tr.wshop > .event {
-	width: 60% !important;
-}
+ #cal-btn {
+   background-color: #98a2fb;
+   width: 12%;
+   padding: 0px;
+   height: 36px;
+   font-size: 13px;
+   margin-bottom: 20px;
+ }
 
-/* if event is workshop, include extra column for workshop level (stars) */
-tr.wshop > .level {
-	width: 15% !important;
-}
+ #cal-btn.active, #cal-btn.active, #cal-btn:hover {
+   color: #808cf7;
+   background-color: #cdd1f8;
+ }
 
-/* last column is calendar button */
-tr > .cal {
-	width: 5%;
-}
+ /* event name */
 
-tr > td {
-	width: 100%;
-}
+ .event>span:nth-child(1) {
+   font-weight: 800;
+ }
 
-div.card-header {
-	padding: 0;
-}
+ /* COLOR CODING for 4 event types */
 
-table.table {
-	margin: 0;
-}
+ /* univeral event */
 
-card-header .fa {
-  transition: .3s transform ease-in-out;
-}
+ tr.univ, div.univ {
+   border-left: 10px solid #8dbaf1;
+ }
 
-/* style of calendar icon */
-.cal i {
-	color: #333F9B;
-	font-size: 20px;
-	transition: all 0.3s ease-in-out; 
-}
+ tr.univ>th>span {
+   color: #8dbaf1;
+ }
 
-.cal i:hover {
-	transform: scale(1.1); 
-}
+ /* panel event */
 
-td.cal {
-	vertical-align: middle;
-}
+ tr.panel, div.panel {
+   border-left: 10px solid #f196db;
+ }
 
-td.level i {
-	margin: 2px;
-}
+ tr.panel>th>span {
+   color: #f196db;
+ }
 
+ /* workshop event */
 
-/* width of schedule table */
-#day1 .card, #day2 .card, #day3 .card {
-	width: 52%;
-	margin: auto;
-}
+ tr.wshop, div.wshop {
+   border-left: 10px solid #fda094;
+ }
 
-/* background color for table row (i.e. each event card) */
-#schedule div.card-header {
-	background-color: #EFEFF4;
-}
+ tr.wshop>th>span {
+   color: #fda094;
+ }
 
-div.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: transparent;
-  border: 0px solid transparent; 
-  border-radius: 0.25rem;
+ /* special activity event */
 
-}
+ tr.activity, div.activity {
+   border-left: 10px solid #81d88a;
+ }
 
-#schedule div.card-body {
-	border-right: 1px solid #DEE2E6;
-	border-bottom: 1px solid #DEE2E6;
-}
+ tr.activity>th>span {
+   color: #81d88a;
+ }
 
-/****** FAQ section ******/
-/* STYLE FOR EACH CARD HEADER (QUESTION) */
-#faqs .card-header button.btn {
-	width: 100%; 
-	margin: 0px;
-	border-radius: 4px;
-	padding-left: 20px;
-	text-align: left;
-	font-weight: 525;
-	height: 50px;
-}
+ /* font color for table cell */
 
-/* STYLE FOR QUESTION TEXT */
-#faqs .card {
-	color: #FFFFFF;
-	font-family: 'Karla', sans-serif;
-	font-size: 12px;
-}
+ th, td {
+   /* color: #98a2fb; */
+ }
 
-#faqs .card .card-header {
-	background-color: transparent;
-	border-color: transparent;
-	margin-top: 20px;
-}
+ /* Remove default gray-ish border-top property */
 
-/* STYLE FOR CARD BODY/ANSWER TEXT */
-#faqs .card .card-body {
-	background-color: #EFEFF4;
-	color: #333F9B;
-	border: 1px solid #333F9B;
-	border-top: transparent;
-	border-radius: 4px;
-	border-top-right-radius: 0px;
-	border-top-left-radius: 0px;
-}
+ .table td, .table th {
+   border-top: none !important;
+ }
 
+ .table tr {
+   padding: 20px 0 !important;
+ }
 
-.fa-caret-down {
-	font-size: 18px;
-	float: right;
-	margin-right: -30px;
-}
+ /* 1st column of table: includes time and event type */
 
-[data-toggle="collapse"][aria-expanded="true"] > .rotate-icon
-{
-    -webkit-transform: rotate(180deg);
-    -moz-transform:    rotate(180deg);
-    -ms-transform:     rotate(180deg);
-    -o-transform:      rotate(180deg);
-    transform:         rotate(180deg);
-}
+ tr>th {
+   font-weight: 400;
+   width: 25%;
+ }
 
+ /* 2nd column of table: includes event title & location */
 
+ tr>.event {
+   width: 70%;
+ }
 
+ /* if event is workshop, make 2nd column smaller so extra col can be added */
+
+ tr.wshop>.event {
+   width: 55% !important;
+ }
+
+ /* if event is workshop, include extra column for workshop level */
+
+ tr.wshop>.level {
+   width: 15% !important;
+ }
+
+ /* last column is calendar button */
+
+ tr>.cal {
+   width: 5%;
+ }
+
+ tr>td {
+   width: 100%;
+ }
+
+ div.card-header {
+   padding: 0;
+ }
+
+ table.table {
+   margin: 0;
+ }
+
+ card-header .fa {
+   transition: 0.3s transform ease-in-out;
+ }
+
+ /* style of calendar icon */
+
+ .cal i {
+   color: #98a2fb;
+   font-size: 20px;
+   transition: all 0.3s ease-in-out;
+ }
+
+ .cal i:hover {
+   transform: scale(1.1);
+ }
+
+ td.cal {
+   vertical-align: middle;
+ }
+
+ td.level i {
+   margin: 2px;
+ }
+
+ /* width of schedule table */
+
+ #day1 .card, #day2 .card, #day3 .card {
+   width: 52%;
+   margin: auto;
+   border-left: 2px solid #98a2fb;
+   border-right: 2px solid #98a2fb;
+   border-bottom: 2px solid #98a2fb;
+ }
+
+ #first-card {
+   border-top: 2px solid #98a2fb;
+ }
+
+ /* background color for table row (i.e. each event card) */
+
+ #schedule div.card-header {
+   background-color: #f6f7ff;
+ }
+
+ div.card {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: transparent;
+   border: 0px solid transparent;
+   border-radius: 0.25rem;
+ }
+
+ /* border colors cont */
+
+ #schedule div.card-body.panel {
+   /* border-right: 0.75px solid #b3bafa;
+  border-bottom: 0.75px solid #b3bafa; */
+   border-top: none !important;
+ }
+
+ #first-card {
+   /* border-top: 1px solid #b3bafa; */
+ }
+
+ div.card-body {
+   background-color: #f6f7ff;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   text-align: justify;
+ }
+
+ div.card-body.univ {
+   color: #8dbaf1;
+ }
+
+ div.card-body.wshop {
+   color: #fda094;
+ }
+
+ div.card-body.panel {
+   color: #f196db;
+ }
+
+ div.card-body.activity {
+   color: #81d88a;
+ }
+
+ /****** FAQ section ******/
+
+ /* STYLE FOR EACH CARD HEADER (QUESTION) */
+
+ #faqs .card-header button.btn {
+   width: 100%;
+   margin: 0px;
+   border-radius: 4px;
+   padding-left: 20px;
+   text-align: left;
+   font-weight: 525;
+   height: 50px;
+ }
+
+ /* STYLE FOR QUESTION TEXT */
+
+ #faqs .card {
+   color: #ffffff;
+   font-family: "Karla", sans-serif;
+   font-size: 12px;
+ }
+
+ #faqs .card .card-header {
+   background-color: transparent;
+   border-color: transparent;
+   margin-top: 20px;
+ }
+
+ /* STYLE FOR CARD BODY/ANSWER TEXT */
+
+ #faqs .card .card-body {
+   background-color: #f1fbfd;
+   color: #58d1eb;
+   /* border: 1px solid #333f9b; */
+   border-top: transparent;
+   border-radius: 4px;
+   border-top-right-radius: 0px;
+   border-top-left-radius: 0px;
+   font-weight: 800;
+   font-size: 15px;
+   line-height: 1.5rem;
+ }
+
+ .fa-caret-down {
+   font-size: 18px;
+   float: right;
+   margin-right: -30px;
+ }
+
+ [data-toggle="collapse"][aria-expanded="true"]>.rotate-icon {
+   -webkit-transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+   -o-transform: rotate(180deg);
+   transform: rotate(180deg);
+ }
+
+ /* add all events to calendar  */
+
+ #add-to-calendar-icon-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px 12px;
+   border-radius: 100%;
+ }
+
+ #add-to-calendar-icon-container i {
+   color: #45b8cf;
+ }
+
+ #add-to-calendar-icon-container:hover {
+   background-color: #e0f7fb;
+   transform: scale(1.1);
+   transition: ease-in-out 0.3s;
+   cursor: pointer;
+ }
+
+ /* Tooltip container */
+
+ .custom-tooltip {
+   position: relative;
+   display: inline-block;
+ }
+
+ .custom-tooltip-text {
+   visibility: hidden;
+   width: 120px;
+   background-color: #e0f7fb;
+   color: #45b8cf;
+   text-align: center;
+   padding: 10px 5px;
+   border-radius: 6px;
+   font-size: 0.8rem;
+   /* Position tooltip */
+   position: absolute;
+   z-index: 1;
+ }
+
+ .custom-tooltip:hover .custom-tooltip-text {
+   visibility: visible;
+ }
+
+ .custom-tooltip .custom-tooltip-text {
+   top: 15%;
+   left: 120%;
+ }
+
+ /* Add arrow to the bottom of the tooltip */
+
+ .custom-tooltip .custom-tooltip-text::after {
+   content: " ";
+   position: absolute;
+   top: 50%;
+   right: 100%;
+   /* To the left of the tooltip */
+   margin-top: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: transparent #e0f7fb transparent transparent;
+ }

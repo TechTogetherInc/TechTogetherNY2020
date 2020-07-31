@@ -3,36 +3,28 @@ Site for TechTogether NY 2020, built by Technical team
 
 TO-DOs:
 
-General
-- Color scheme
-
 Tentative Schedule
-- Choose icon for workshops
+- Add description + Add all events to calendar button
 
 Site Content
 - Refer to #website-planning channel in Slack
 
 
 EVENT CATEGORIES
-- Universal #51DBF6 (red)
-- Workshop #808CFB (purple)
-- Panel #E73F33 (blue)
-- Activity #FC7361 (peach)
+- Universal #8dbaf1 (blue)
+- Workshop #FDA094 (peach)
+- Panel #f196db (pink)
+- Activity #81d88a (green)
 
 Workshop Levels
-Icon: Star, Computer, Mascot, etc.
 - Beginner (1)
 - Intermediate (2)
 - Advanced (3)
 
 Questions for Kala
-- Font color + choice
-- Section title colors
-- Button colors
-- Button hover colors
-- Tentative Schedule colors
+- Background color
+- Section title colors (not blue)
+- Add All to Calendar button
 - Description for Tentative Schedule
 - Width of table
-- Placement and choice of workshop level icons
-- FAQ hover colors
-- FAQ active colors
+- Event description font color
