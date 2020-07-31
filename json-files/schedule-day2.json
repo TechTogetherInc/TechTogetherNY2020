@@ -1,0 +1,22 @@
+[
+	{
+		"Class": "panel",
+		"Time": "12:00PM - 1:00PM",
+		"Category": "Panel",
+		"Title": "Panel on Navigating the Workspace as a Womxn",
+		"Location": "LocationX",
+		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		"GCal_Event": "#"
+	},
+	{
+		"Class": "wshop",
+		"Time": "2:00PM - 3:30PM",
+		"Category": "Workshop",
+		"Title": "Technical Resume Reviews",
+		"Location": "LocationX",
+		"Level": 3,
+		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		"GCal_Event": "#"
+
+	}
+]

@@ -1,0 +1,85 @@
+<!-- get involved with separate tabs -->
+<section id="get-involved">
+		<h2 class="section-name">Get Involved!</h2>
+		<div class="col-md-12 text-center">
+			<div class="btn-group">
+				<button type="button" class="btn user-btn active" data-tab="hacker">Hacker</button>
+				<button type="button" class="btn user-btn" data-tab="mentor">Mentor</button>
+				<button type="button" class="btn user-btn" data-tab="volunteer">Volunteer</button>
+			</div>
+			<div id="get-involved-content">
+				<div class="active" id="hacker">
+					Our Hacker application will be added here soon. <br>
+					To be notified of TTNY updates, leave your email below!
+					<div class="input-group">
+  						<input type="text" class="form-control" placeholder="Hacker's Email" aria-label="Hacker's Email">
+  						<div class="input-group-append"><button class="btn" type="button">Enter!</button></div>
+					</div>
+				</div>
+				<div id="mentor">Mentor content here</div>
+				<div id="volunteer">Volunteer content here</div>
+			</div>
+		</div>
+	</section>
+
+
+	#get-involved-content > div, #schedule-content > div {
+	display: none;
+}
+
+#get-involved-content > div.active, #schedule-content > div.active {
+	display: block;
+	margin: 20px;
+}
+
+#get-involved-content {
+	width: 50%;
+	margin: auto;
+}
+
+<div class="col-md-6 text-center">
+	<div id="faq-Lcards">
+
+	  <div class="card">
+	    <div class="card-header" id="heading-L1">
+	        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse-L1" aria-expanded="true">Question1</button>
+	    </div>
+	    <div id="collapse-L1" class="collapse" aria-labelledby="heading-L1" data-parent="#faq-Lcards">
+	      <div class="card-body">Answer1</div>
+	    </div>
+	  </div> <!-- end of card -->
+
+	  <div class="card">
+	    <div class="card-header" id="heading-L2">
+	        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse-L2" aria-expanded="true">Question2</button>
+	    </div>
+	    <div id="collapse-L2" class="collapse" aria-labelledby="heading-L2" data-parent="#faq-Lcards">
+	      <div class="card-body">Answer2</div>
+	    </div>
+	  </div>
+	</div> <!-- end of card -->
+</div>
+
+<div class="col-md-6 text-center">
+	<div id="faq-Rcards">
+
+	  <div class="card">
+	    <div class="card-header" id="heading-R1">
+	        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse-R1" aria-expanded="true">Question1</button>
+	    </div>
+	    <div id="collapse-R1" class="collapse" aria-labelledby="heading-R1" data-parent="#faq-Rcards">
+	      <div class="card-body">Answer1</div>
+	    </div>
+	  </div> <!-- end of card -->
+
+	  <div class="card">
+	    <div class="card-header" id="heading-R2">
+	        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse-R2" aria-expanded="true">Question2</button>
+	    </div>
+	    <div id="collapse-R2" class="collapse" aria-labelledby="heading-R2" data-parent="#faq-Rcards">
+	      <div class="card-body">Answer2</div>
+	    </div>
+	  </div> <!-- end of card -->
+
+	</div>
+</div>

@@ -1,0 +1,20 @@
+[
+	{
+		"Class": "univ",
+		"Time": "10:00AM - 2:00PM",
+		"Category": "Universal",
+		"Title": "Judging Session",
+		"Location": "LocationX",
+		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		"GCal_Event": "#"
+	},
+	{
+		"Class": "activity",
+		"Time": "2:00PM - 3:00PM",
+		"Category": "Activity",
+		"Title": "Yoga Session",
+		"Location": "LocationX",
+		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		"GCal_Event": "#"
+	}
+]
