@@ -1,21 +1,21 @@
-// construct HTML for tentative schedule by reading JSON file with schedule information
-$(document).ready(function () {
-  // create 3 tables, one for each day
-  for (let i = 1; i <= 3; i++) {
-    let json_file = `json-files/schedule-day${i}.json`; // json file with event data for specified day
-    let day = `day${i}`;
-    let classes = "accordion";
-    if (i == 1) {
-      classes += " active";
-    }
-    let html = `<div class="${classes}" id="${day}">`;
+// // construct HTML for tentative schedule by reading JSON file with schedule information
+// $(document).ready(function () {
+//   // create 3 tables, one for each day
+//   for (let i = 1; i <= 3; i++) {
+//     let json_file = `json-files/schedule-day${i}.json`; // json file with event data for specified day
+//     let day = `day${i}`;
+//     let classes = "accordion";
+//     if (i == 1) {
+//       classes += " active";
+//     }
+//     let html = `<div class="${classes}" id="${day}">`;
 
-    $.getJSON(json_file, function (data) {
-      html = build_schedule(data, html, i) + "</div>"; // call method to build table
-      document.getElementById("schedule-content").innerHTML += html;
-    });
-  }
-});
+//     $.getJSON(json_file, function (data) {
+//       html = build_schedule(data, html, i) + "</div>"; // call method to build table
+//       document.getElementById("schedule-content").innerHTML += html;
+//     });
+//   }
+// });
 
 // build tentative schedule table - data is contained in json file
 function build_schedule(data, html, day) {

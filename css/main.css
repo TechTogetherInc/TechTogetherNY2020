@@ -514,3 +514,412 @@
    border-style: solid;
    border-color: transparent #e0f7fb transparent transparent;
  }
+=======
+#temp-header {
+  /* simulate header */
+  text-align: center;
+  background-color: #45b8cf;
+  height: 80px;
+  color: white;
+}
+
+body {
+  background-color: rgba(252, 252, 252, 1) !important;
+}
+
+/* STYLING FOR SECTION NAME */
+.section-name {
+  font-family: "Barlow", sans-serif;
+  color: #45b8cf;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 0px 10px 0px;
+  font-weight: 800;
+}
+
+/* GENERAL STYLING FOR BODY */
+#get-involved,
+#schedule,
+#faqs {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 13px; /* FONT SIZE */
+  color: #333f9b;
+}
+
+/* BUTTON STYLE */
+button.btn {
+  color: #ffffff; /* BUTTON TEXT COLOR */
+  background-color: #9ce4f3; /* BUTTON COLOR */
+  font-size: 1rem; /* BUTTON TEXT SIZE */
+  border-radius: 6px;
+  padding: 13px 50px; /* BUTTON PADDING */
+  margin: 8px 0px; /* BUTTON MARGINS */
+  transition: all 0.3s ease-in-out;
+  font-weight: 800;
+}
+
+/* BUTTON HOVER & ACTIVE COLORS */
+button.user-btn.active,
+button.day-btn.active,
+button.btn:hover {
+  color: #58d1eb;
+  background-color: #e0f7fb;
+}
+
+/* BUTTON WIDTH */
+#get-involved .col-md-6 .btn {
+  width: 50%;
+}
+
+/******* tentative schedule section *******/
+
+#schedule {
+  font-size: 0.9rem;
+}
+
+/* DAY1, DAY2, DAY3 WIDTH */
+
+#schedule .btn-group {
+  width: 40%;
+}
+
+#schedule-content > div {
+  display: none;
+}
+
+#schedule-content > div.active {
+  display: block;
+  margin-top: 10px;
+}
+
+.table {
+  /* border-bottom: 0.75px solid #b3bafa;
+  border-right: 0.75px solid #b3bafa; */
+  color: #98a2fb !important;
+}
+
+/* add to calendar button */
+#cal-btn {
+  background-color: #98a2fb;
+  width: 12%;
+  padding: 0px;
+  height: 36px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+#cal-btn.active,
+#cal-btn.active,
+#cal-btn:hover {
+  color: #808cf7;
+  background-color: #cdd1f8;
+}
+
+/* event name */
+.event > span:nth-child(1) {
+  font-weight: 800;
+}
+
+/* COLOR CODING for 4 event types */
+/* univeral event */
+tr.univ,
+div.univ {
+  border-left: 10px solid #8dbaf1;
+}
+
+tr.univ > th > span {
+  color: #8dbaf1;
+}
+
+/* panel event */
+tr.panel,
+div.panel {
+  border-left: 10px solid #f196db;
+}
+
+tr.panel > th > span {
+  color: #f196db;
+}
+
+/* workshop event */
+tr.wshop,
+div.wshop {
+  border-left: 10px solid #fda094;
+}
+
+tr.wshop > th > span {
+  color: #fda094;
+}
+
+/* special activity event */
+tr.activity,
+div.activity {
+  border-left: 10px solid #81d88a;
+}
+
+tr.activity > th > span {
+  color: #81d88a;
+}
+
+/* font color for table cell */
+th,
+td {
+  /* color: #98a2fb; */
+}
+
+/* Remove default gray-ish border-top property */
+.table td,
+.table th {
+  border-top: none !important;
+}
+
+.table tr {
+  padding: 20px 0 !important;
+}
+
+/* 1st column of table: includes time and event type */
+tr > th {
+  font-weight: 400;
+  width: 25%;
+}
+
+/* 2nd column of table: includes event title & location */
+tr > .event {
+  width: 70%;
+}
+
+/* if event is workshop, make 2nd column smaller so extra col can be added */
+tr.wshop > .event {
+  width: 55% !important;
+}
+
+/* if event is workshop, include extra column for workshop level */
+tr.wshop > .level {
+  width: 15% !important;
+}
+
+/* last column is calendar button */
+tr > .cal {
+  width: 5%;
+}
+
+tr > td {
+  width: 100%;
+}
+
+div.card-header {
+  padding: 0;
+}
+
+table.table {
+  margin: 0;
+}
+
+card-header .fa {
+  transition: 0.3s transform ease-in-out;
+}
+
+/* style of calendar icon */
+.cal i {
+  color: #98a2fb;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cal i:hover {
+  transform: scale(1.1);
+}
+
+td.cal {
+  vertical-align: middle;
+}
+
+td.level i {
+  margin: 2px;
+}
+
+/* width of schedule table */
+#day1 .card,
+#day2 .card,
+#day3 .card {
+  width: 52%;
+  margin: auto;
+  border-left: 2px solid #98a2fb;
+  border-right: 2px solid #98a2fb;
+  border-bottom: 2px solid #98a2fb;
+}
+
+#first-card {
+  border-top: 2px solid #98a2fb;
+}
+
+/* background color for table row (i.e. each event card) */
+#schedule div.card-header {
+  background-color: #f6f7ff;
+}
+
+div.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0.25rem;
+}
+
+/* border colors cont */
+#schedule div.card-body.panel {
+  /* border-right: 0.75px solid #b3bafa;
+  border-bottom: 0.75px solid #b3bafa; */
+  border-top: none !important;
+}
+
+#first-card {
+  /* border-top: 1px solid #b3bafa; */
+}
+
+div.card-body {
+  background-color: #f6f7ff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+div.card-body.univ {
+  color: #8dbaf1;
+}
+
+div.card-body.wshop {
+  color: #fda094;
+}
+
+div.card-body.panel {
+  color: #f196db;
+}
+
+div.card-body.activity {
+  color: #81d88a;
+}
+
+/****** FAQ section ******/
+/* STYLE FOR EACH CARD HEADER (QUESTION) */
+#faqs .card-header button.btn {
+  width: 100%;
+  margin: 0px;
+  border-radius: 4px;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: 525;
+}
+
+/* STYLE FOR QUESTION TEXT */
+#faqs .card {
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-size: 12px;
+}
+
+#faqs .card .card-header {
+  background-color: transparent;
+  border-color: transparent;
+  margin-top: 20px;
+}
+
+/* STYLE FOR CARD BODY/ANSWER TEXT */
+#faqs .card .card-body {
+  background-color: #f1fbfd;
+  color: #58d1eb;
+  /* border: 1px solid #333f9b; */
+  border-top: transparent;
+  border-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+#faqs .card .card-header .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.fa-caret-down {
+  font-size: 18px;
+  /* float: right; */
+}
+
+[data-toggle="collapse"][aria-expanded="true"] > .rotate-icon {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* add all events to calendar  */
+#add-to-calendar-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border-radius: 100%;
+}
+
+#add-to-calendar-icon-container i {
+  color: #45b8cf;
+}
+
+#add-to-calendar-icon-container:hover {
+  background-color: #e0f7fb;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+/* Tooltip container */
+.custom-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #e0f7fb;
+  color: #45b8cf;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  /* Position tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.custom-tooltip:hover .custom-tooltip-text {
+  visibility: visible;
+}
+
+.custom-tooltip .custom-tooltip-text {
+  top: 15%;
+  left: 120%;
+}
+
+/* Add arrow to the bottom of the tooltip */
+.custom-tooltip .custom-tooltip-text::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #e0f7fb transparent transparent;
+}
