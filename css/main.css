@@ -429,11 +429,16 @@
    line-height: 1.5rem;
  }
 
- .fa-caret-down {
-   font-size: 18px;
-   float: right;
-   margin-right: -30px;
- }
+ #faqs .card .card-header .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.fa-caret-down {
+  font-size: 18px;
+}
 
  [data-toggle="collapse"][aria-expanded="true"]>.rotate-icon {
    -webkit-transform: rotate(180deg);
