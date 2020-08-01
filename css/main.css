@@ -297,7 +297,6 @@ div.card-body.activity {
   padding-left: 20px;
   text-align: left;
   font-weight: 525;
-  height: 50px;
 }
 
 /* STYLE FOR QUESTION TEXT */
@@ -327,10 +326,16 @@ div.card-body.activity {
   line-height: 1.5rem;
 }
 
+#faqs .card .card-header .btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
 .fa-caret-down {
   font-size: 18px;
-  float: right;
-  margin-right: -30px;
+  /* float: right; */
 }
 
 [data-toggle="collapse"][aria-expanded="true"] > .rotate-icon {
