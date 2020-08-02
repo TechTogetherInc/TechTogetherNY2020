@@ -5,7 +5,9 @@
   } */
 
   .anchor{
-    padding-top:3vh;
+    padding-top: 12vh;
+    /* padding-top: 80px; */
+
   }
 
   #temp-header {
@@ -28,6 +30,10 @@
     font-family: 'Karla', sans-serif;
   }
  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+  }
   .navbar-light .navbar-toggler {
     border-color: rgba(255, 255, 255, 0) !important;
     outline: none;
@@ -86,6 +92,24 @@
    color: #58d1eb;
    background-color: #e0f7fb;
  }
+
+ /* CHALLENGE THEME */
+.challenges {
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 4vw;
+  padding-right: 4vw; */
+  text-align: center;
+  overflow: hidden;
+  min-height: 60vh; 
+  height: 70vh;
+}
+.challenges img{
+  max-width: 20%;
+  height: auto;
+  padding: 3%;
+}
 
  /* STYLING FOR SECTION NAME */
 
