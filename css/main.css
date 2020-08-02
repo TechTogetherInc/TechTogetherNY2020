@@ -5,7 +5,7 @@
   } */
 
   .anchor{
-    padding-top:15vh;
+    padding-top:3vh;
   }
 
   #temp-header {
@@ -72,18 +72,12 @@
 
  #mailchimp-button {
    border: 0px solid #9CE4F3;
-   /* BUTTON BORDER COLOR */
    color: #ffffff;
-   /* BUTTON TEXT COLOR */
    background-color: #9ce4f3;
-   /* BUTTON COLOR */
    font-size: 1rem;
-   /* BUTTON TEXT SIZE */
    border-radius: 6px;
    padding: 13px 50px;
-   /* BUTTON PADDING */
    margin: 8px 0px;
-   /* BUTTON MARGINS */
    transition: all 0.3s ease-in-out;
    font-weight: 800;
  }
@@ -108,28 +102,21 @@
 
  /* GENERAL STYLING FOR BODY */
 
- #get-involved, #schedule, #faqs {
+ #get-involved, #schedule, #faqs, button.btn, input.button {
    font-family: "Karla", sans-serif;
    font-weight: 400;
    font-size: 13px;
-   /* FONT SIZE */
-   color: #333f9b;
  }
 
  /* BUTTON STYLE */
 
  button.btn {
    color: #ffffff;
-   /* BUTTON TEXT COLOR */
    background-color: #9ce4f3;
-   /* BUTTON COLOR */
    font-size: 1rem;
-   /* BUTTON TEXT SIZE */
    border-radius: 6px;
    padding: 13px 50px;
-   /* BUTTON PADDING */
    margin: 8px 0px;
-   /* BUTTON MARGINS */
    transition: all 0.3s ease-in-out;
    font-weight: 800;
  }
@@ -146,6 +133,10 @@
  #get-involved .col-md-6 .btn {
    width: 50%;
  }
+ 
+ .btn-group .btn {
+  padding: 13px 20px;
+}
 
  /******* tentative schedule section *******/
 
@@ -153,11 +144,13 @@
    font-size: 0.9rem;
  }
 
- /* DAY1, DAY2, DAY3 WIDTH */
-
- #schedule .btn-group {
-   width: 40%;
+ #coming-soon {
+   margin-top: 15px;
+   font-size: 18px;
+   text-align: center;
  }
+
+ /* DAY1, DAY2, DAY3 WIDTH */
 
  #schedule-content>div {
    display: none;
@@ -431,7 +424,7 @@
    line-height: 1.5rem;
  }
 
-#faqs .card .card-header .btn {:
+#faqs .card .card-header .btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -565,4 +558,30 @@
 #footer-note {
     margin: 0;
     margin-right: 20px;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 993px) {
+  #schedule .btn-group {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  #schedule .btn-group {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #schedule .btn-group {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #get-involved .col-md-6 .btn {
+    width: 70%;
+  }
 }
