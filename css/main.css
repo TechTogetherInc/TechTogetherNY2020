@@ -291,6 +291,7 @@
 
  div.card-header {
    padding: 0;
+   border-bottom: none;
  }
 
  table.table {
@@ -399,7 +400,6 @@
    padding-left: 20px;
    text-align: left;
    font-weight: 525;
-   height: 50px;
  }
 
  /* STYLE FOR QUESTION TEXT */
@@ -431,11 +431,16 @@
    line-height: 1.5rem;
  }
 
- .fa-caret-down {
-   font-size: 18px;
-   float: right;
-   margin-right: -30px;
- }
+#faqs .card .card-header .btn {:
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.fa-caret-down {
+  font-size: 18px;
+}
 
  [data-toggle="collapse"][aria-expanded="true"]>.rotate-icon {
    -webkit-transform: rotate(180deg);
@@ -510,54 +515,54 @@
    border-color: transparent #e0f7fb transparent transparent;
  }
 
- .sponsor-logo {
-     -webkit-filter: grayscale(100%);
-     -moz-filter:    grayscale(100%);
-     -ms-filter:     grayscale(100%);
-     -o-filter:      grayscale(100%);
-     filter: gray;
-     width: 110px;
+.sponsor-logo {
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    filter: gray;
+    width: 110px;
     transition: transform .2s;
     margin: 20px;
- }
+}
 
- /* Saturate sponsor logos on hover */
- .sponsor-logo:hover {
-     filter: none;
-     -webkit-filter: grayscale(0%);
-     -moz-filter:    grayscale(0%);
-     -ms-filter:     grayscale(0%);
-     -o-filter:      grayscale(0%);
-     cursor: pointer;
-     transform: scale(1.2);
- }
+/* Saturate sponsor logos on hover */
+.sponsor-logo:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -moz-filter:    grayscale(0%);
+    -ms-filter:     grayscale(0%);
+    -o-filter:      grayscale(0%);
+    cursor: pointer;
+    transform: scale(1.2);
+}
 
 /* Center sponsor logos */
- #sponsor-div {
-   display: flex;
-   justify-content: center;
-   justify-content: space-around;
- }
+#sponsor-div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
 
 #footer {
-  /* background-color: #9ce4f3; */
-  background-color: #45b8cf;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    /* background-color: #9ce4f3; */
+    background-color: #45b8cf;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .social-icon {
-  width: 40px;
-  margin: 15px;
+    width: 40px;
+    margin: 15px;
 }
 
 #social-icons {
-  margin-left: 50px;
+    margin-left: 50px;
 }
 
 #footer-note {
-  margin: 0;
-  margin-right: 20px;
+    margin: 0;
+    margin-right: 20px;
 }

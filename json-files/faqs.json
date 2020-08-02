@@ -9,7 +9,7 @@
             "Answer": "Yes, the theme for this event is \"Embracing Uncertainty\"! We're focusing on ways to utilize technology to stay healthy, connected, and happy during these unprecedented times."
         },
         {
-            "Question": "Who is eligible to participate? Are there any age or location restrictions?",
+            "Question": "Who is eligible to participate?",
             "Answer": "This hackathon is for women (cis & trans) and non-binary partcipants only. Men are welcome to mentor, volunteer, judge, or participate as sponsors! You must be 16 years or older to participate in this event. There are no location restrictions!"
         },
         {
@@ -18,15 +18,15 @@
         },
         {
             "Question": "What resources will I need in order to participate?",
-            "Answer": "In order to build your project, you'll probably need a computer and whatever software you feel might be necessary for development. You'll also need a webcam and reliable internet connection to present your hard work to judges and other interested community members! We want everyone to have fun and get the most out of this event, so please reach out if you have any difficulty obtaining the resources you need!"
+            "Answer": "In order to build your project, you'll likely need a computer and whatever software you feel might be necessary for development. You'll also need a webcam and reliable internet connection to present your hard work to judges and other interested community members! We want everyone to have fun and get the most out of this event, so please reach out if you have any difficulty obtaining the resources you need!"
         },
         {
             "Question": "What if I don't have access to the internet/a computer?",
-            "Answer": "No worries! Just let us know by filling out this form and we will try to get you the resources you need to participate."
+            "Answer": "No worries! Just let us know by filling out the Tech Request Form (in the Get Involved section) and we will try to get you the resources you need to participate."
         },
         {
-            "Question": "How do I register as a hacker and when is the registration deadline?",
-            "Answer": "Refer to Get Involved section (there will be a forms they can fill out to register as a hacker)"
+            "Question": "How do I register as a hacker and when is the deadline?",
+            "Answer": "We're so excited! Please refer to the Get Involved section for the hacker registration form."
         },
         {
             "Question": "What if I don't have a team? Do I need one?",
@@ -37,7 +37,7 @@
             "Answer": "All teams must be between 3-6 people. We highly encourage that advanced hackers bring on beginner hackers to mentor throughout the event."
         },
         {
-            "Question": "How long is the hackathon? When does it start? When does it end?",
+            "Question": "How long is the hackathon? When does it start and end?",
             "Answer": "This event will take place December 4-6! Please note that all events will follow Eastern Time (GMT-4)."
         }],
     "FAQs_Right": [
@@ -75,11 +75,11 @@
         },
         {
             "Question": "I want to volunteer, mentor, or judge! How can I help?",
-            "Answer": "Refer to the Get Involved section for forms to register as a mentor or judge."
+            "Answer": "Awesome! Please refer to the Get Involved section for forms to register as a mentor or judge."
         },
         {
             "Question": "How do I become a sponsor of TTNY?",
-            "Answer": "Refer to the Get Involved section for a sponsor interest form. Alternatively, reach out to sponsor.ny@techtogether.io."
+            "Answer": "Fantastic! Please refer to the Get Involved section for a sponsor interest form. Alternatively, reach out to sponsor.ny@techtogether.io."
         }
     ]
 }
