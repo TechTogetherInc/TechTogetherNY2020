@@ -4,10 +4,6 @@
     outline: solid #f00 1px !important;
   } */
 
-  .anchor{
-    padding-top:3vh;
-  }
-
   #temp-header {
     /* simulate header */
     text-align: center;
@@ -86,6 +82,23 @@
    color: #58d1eb;
    background-color: #e0f7fb;
  }
+
+ /* CHALLENGE THEME */
+.challenges {
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 4vw;
+  padding-right: 4vw; */
+  text-align: center;
+  overflow-y: hidden;
+  height: 400px;
+}
+.challenges img{
+  max-width: 20%;
+  height: auto;
+  padding: 3%;
+}
 
  /* STYLING FOR SECTION NAME */
 

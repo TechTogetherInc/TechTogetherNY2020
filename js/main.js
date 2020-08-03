@@ -120,3 +120,16 @@ for (var i = 0; i < btns.length; i++) {
 $(document).ready(function () {
   $("body").tooltip({ selector: "[data-toggle=tooltip]" });
 });
+
+//for auto scrolling
+function offsetAnchor() {
+  if (location.hash.length !== 0) {
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+  }
+}
+$(document).on('click', 'a[href^="#"]', function(event) {
+  window.setTimeout(function() {
+    offsetAnchor();
+  }, 0);
+});
+window.setTimeout(offsetAnchor, 0);
