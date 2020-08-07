@@ -15,13 +15,15 @@
     width: 200px;
   }
  
-  body {
+  html,body {
     background-color: rgba(252, 252, 252, 1) !important;
-    width: 100%;
-    margin: 0;
-    padding: 0px;
     color: #333F9B;
     font-family: 'Karla', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
   }
  
   .navbar-light .navbar-toggler {
@@ -85,12 +87,14 @@
 
  /* CHALLENGE THEME */
 
-div.carousel-inner {
+.carousel-inner {
   color: #ffffff;
   height: 100%;
   padding-bottom: 5vh;
 }
-
+.carousel-inner > .item{
+  width: 100%;
+}
 .challenges {
   font-size: 1rem;
   margin-left: auto;
@@ -578,6 +582,8 @@ div.carousel-inner {
 
 #social-icons {
     margin-left: 50px;
+    margin: 0 auto;
+    display: initial;
 }
 
 #footer-note {
