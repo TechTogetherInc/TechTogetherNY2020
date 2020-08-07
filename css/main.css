@@ -4,6 +4,7 @@
     outline: solid #f00 1px !important;
   } */
 
+
   #temp-header {
     /* simulate header */
     text-align: center;
@@ -15,7 +16,7 @@
     width: 200px;
   }
  
-  html,body {
+  body {
     background-color: rgba(252, 252, 252, 1) !important;
     color: #333F9B;
     font-family: 'Karla', sans-serif;
