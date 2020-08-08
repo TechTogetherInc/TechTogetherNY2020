@@ -15,7 +15,7 @@
   #logo {
     width: 200px;
   }
- 
+  
   body {
     background-color: rgba(252, 252, 252, 1) !important;
     color: #333F9B;
@@ -96,6 +96,7 @@
 .carousel-inner > .item{
   width: 100%;
 }
+
 .challenges {
   font-size: 1rem;
   margin-left: auto;
@@ -583,7 +584,7 @@
 
 #social-icons {
     margin-left: 50px;
-    margin: 0 auto;
+    margin: 0;
     display: initial;
 }
 
