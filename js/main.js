@@ -121,15 +121,93 @@ $(document).ready(function () {
   $("body").tooltip({ selector: "[data-toggle=tooltip]" });
 });
 
-//for auto scrolling
-function offsetAnchor() {
-  if (location.hash.length !== 0) {
-    window.scrollTo(window.scrollX, window.scrollY - 100);
-  }
-}
-$(document).on('click', 'a[href^="#"]', function(event) {
-  window.setTimeout(function() {
-    offsetAnchor();
-  }, 0);
+//for auto scrolling version 1
+// function offsetAnchor() {
+//   if (location.hash.length !== 0) {
+//     window.scrollTo(window.scrollX, window.scrollY - 100);
+//   }
+// }
+// $(document).on('click', 'a[href^="#"]', function(event) {
+//   window.setTimeout(function() {
+//     event.preventDefault();
+//     offsetAnchor();
+//   }, 100);
+// });
+// window.setTimeout(offsetAnchor, 100);
+
+//for auto scrolling version 2
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//     anchor.addEventListener('click', function (e) {
+//         e.preventDefault();
+
+//         document.querySelector(this.getAttribute('href')).scrollIntoView({
+//             behavior: 'smooth'
+//         });
+//     });
+// });
+
+
+//for auto scrolling version 3
+var $root = $('html, body');
+$('a[href^="#"]').click(function() {
+    var href = $.attr(this, 'href');
+
+    $root.animate({
+        scrollTop: $(href).offset().top - 100
+    }, 700, function () {
+      window.scrollTo(window.scrollX, window.scrollY - 100);
+      window.location.hash = href;
+    });
+
+    return false;
 });
-window.setTimeout(offsetAnchor, 0);
+
+
+//for auto scrolling version 4
+// Select all links with hashes
+// $('a[href*="#"]')
+//   // Remove links that don't actually link to anything
+//   .not('[href="#"]')
+//   .click(function(event) {
+//     // On-page links
+//     if (
+//       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+//       && 
+//       location.hostname == this.hostname
+//     ) {
+//       // Figure out element to scroll to
+
+//       var target = $(this.hash);
+//       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+//       // Does a scroll target exist?
+//       if (location.hash.length !== 0) {
+//         // Only prevent default if animation is actually gonna happen
+//         event.preventDefault();
+//         $('html, body').animate({
+//           scrollTop: target.offset().top
+//         }, 800, function() {
+//           // Callback after animation
+//           // Must change focus!
+//           var $target = $(target);
+//           $target.focus();
+//           if ($target.is(":focus")) { // Checking if the target was focused
+//             return false;
+//           } else {
+//             window.scrollTo(window.scrollX, window.scrollY - 50);
+//             $target.focus(); // Set focus again
+//           };
+//         });
+//       }
+//     }
+//   });
+
+
+//carousel smooth scrolling
+$('.carousel').on('slide.bs.carousel', function (event) {
+  // var height = $(event.relatedTarget).height();
+  var $innerCarousel = $(event.target).find('.carousel-inner');
+  
+  // $innerCarousel.animate({
+  //   height: height
+  // });
+});
