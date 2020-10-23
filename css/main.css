@@ -541,9 +541,19 @@ div.carousel-inner {
     -ms-filter:     grayscale(100%);
     -o-filter:      grayscale(100%);
     filter: gray;
-    width: 200px;
+    width: 110px;
     transition: transform .2s;
     margin: 20px;
+}
+.sponsor-logo2 {
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    filter: gray;
+    width: 110px;
+    transition: transform .2s;
+    margin: 20px; 
 }
 .sponsor-logo {
     -webkit-filter: grayscale(100%);
