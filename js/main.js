@@ -1,3 +1,4 @@
+
 // construct HTML for tentative schedule by reading JSON file with schedule information
 $(document).ready(function () {
   // create 3 tables, one for each day
@@ -16,7 +17,6 @@ $(document).ready(function () {
     });
   }
 });
-
 
 // build tentative schedule table - data is contained in json file
 function build_schedule(data, html, day) {
