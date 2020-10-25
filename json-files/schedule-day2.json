@@ -1,22 +1,48 @@
 [
 	{
-		"Class": "panel",
-		"Time": "12:00PM - 1:00PM",
-		"Category": "Panel",
-		"Title": "Panel on Navigating the Workspace as a Womxn",
-		"Location": "LocationX",
-		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		"Class": "univ",
+		"Time": "10:15AM - 11:15AM",
+		"Category": "Universal",
+		"Title": "Opening Ceremony",
+		"Location": "TBD",
+		"Description": "Coming soon!",
 		"GCal_Event": "#"
 	},
 	{
 		"Class": "wshop",
-		"Time": "2:00PM - 3:30PM",
+		"Time": "11:30AM",
 		"Category": "Workshop",
-		"Title": "Technical Resume Reviews",
-		"Location": "LocationX",
-		"Level": 3,
-		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-		"GCal_Event": "#"
-
+		"Title": "Workshops Begin!",
+		"Location": "TBD",
+		"Level": "1",
+		"Description": "Coming soon!",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "univ",
+		"Time": "11:30AM - 12:30PM",
+		"Category": "Universal",
+		"Title": "Team Formation Activity",
+		"Location": "TBD",
+		"Description": "Coming soon!",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "activity",
+		"Time": "12:30PM - 1:30PM",
+		"Category": "Activity",
+		"Title": "Meal Break: Tasty Cook-Off!",
+		"Location": "TBD",
+		"Description": "Coming soon!",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "activity",
+		"Time": "6:30PM - 7:30PM",
+		"Category": "Activity",
+		"Title": "Meal Break: Tasty Cook-Off!",
+		"Location": "TBD",
+		"Description": "Coming soon!",
+		"GCal_Event": ""
 	}
 ]

@@ -1,20 +1,29 @@
 [
 	{
 		"Class": "univ",
-		"Time": "10:00AM - 2:00PM",
+		"Time": "2:00 PM",
 		"Category": "Universal",
-		"Title": "Judging Session",
-		"Location": "LocationX",
-		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		"Title": "Hacking Ends!",
+		"Location": "Devpost",
+		"Description": "Coming soon!",
 		"GCal_Event": "#"
 	},
 	{
-		"Class": "activity",
-		"Time": "2:00PM - 3:00PM",
-		"Category": "Activity",
-		"Title": "Yoga Session",
-		"Location": "LocationX",
-		"Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		"Class": "univ",
+		"Time": "5:00PM - 6:00PM",
+		"Category": "Universal",
+		"Title": "Closing Ceremony",
+		"Location": "TBD",
+		"Description": "Coming soon!",
+		"GCal_Event": "#"
+	},
+	{
+		"Class": "univ",
+		"Time": "6:00 PM",
+		"Category": "Universal",
+		"Title": "End of Hackathon",
+		"Location": "TBD",
+		"Description": "We will miss you all!",
 		"GCal_Event": "#"
 	}
 ]
