@@ -17,6 +17,7 @@ $(document).ready(function () {
   }
 });
 
+
 // build tentative schedule table - data is contained in json file
 function build_schedule(data, html, day) {
   for (let i = 0; i < data.length; i++) {
