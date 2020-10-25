@@ -10,7 +10,6 @@ $(document).ready(function () {
       classes += " active";
     }
     let html = `<div class="${classes}" id="${day}">`;
-
     $.getJSON(json_file, function (data) {
       html = build_schedule(data, html, i) + "</div>"; // call method to build table
       document.getElementById("schedule-content").innerHTML += html;
