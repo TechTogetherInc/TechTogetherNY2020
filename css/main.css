@@ -176,13 +176,6 @@ button.btn:hover {
   font-size: 0.9rem;
 }
 
-#schedule-details {
-  margin-top: 15px;
-  font-size: 16px;
-  text-align: center;
-  color: #808cf7;
-}
-
 /* DAY1, DAY2, DAY3 WIDTH */
 
 #schedule-content > div {
