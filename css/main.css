@@ -96,6 +96,10 @@ div.carousel-inner {
   width: 100%;
 }
 
+.carousel-item p:nth-child(1) {
+  margin-bottom: 5px;
+}
+
 .challenges {
   font-size: 1rem;
   margin-left: auto;
@@ -544,67 +548,64 @@ div.card-body.activity {
   border-color: transparent #e0f7fb transparent transparent;
 }
 
-
 .sponsor-logo-top {
-    -webkit-filter: grayscale(100%);
-    -moz-filter:    grayscale(100%);
-    -ms-filter:     grayscale(100%);
-    -o-filter:      grayscale(100%);
-    filter: gray;
-    width: 320px;
-    transition: transform .2s;
-    margin-top: 60px;
-    margin-left: 62px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: gray;
+  width: 320px;
+  transition: transform 0.2s;
+  margin-top: 60px;
+  margin-left: 62px;
 }
-
 
 .sponsor-logo-bottom {
   -webkit-filter: grayscale(100%);
-  -moz-filter:    grayscale(100%);
-  -ms-filter:     grayscale(100%);
-  -o-filter:      grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
   filter: gray;
   width: 100px;
-  transition: transform .2s;
+  transition: transform 0.2s;
   margin-left: 75px;
-  
 }
-.sponsor-logo-bottom1 {                                   /*code only for BU's logo to increase image size*/
+.sponsor-logo-bottom1 {
+  /*code only for BU's logo to increase image size*/
   -webkit-filter: grayscale(100%);
-  -moz-filter:    grayscale(100%);
-  -ms-filter:     grayscale(100%);
-  -o-filter:      grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
   filter: gray;
   width: 140px;
-  transition: transform .2s;
+  transition: transform 0.2s;
   margin-left: 75px;
-  
 }
 /* Saturate sponsor logos on hover */
 .sponsor-logo-top:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
-  -moz-filter:    grayscale(0%);
-  -ms-filter:     grayscale(0%);
-  -o-filter:      grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
   cursor: pointer;
   transform: scale(1.2);
 }
 .sponsor-logo-bottom:hover {
-    filter: none;
-    -webkit-filter: grayscale(0%);
-    -moz-filter:    grayscale(0%);
-    -ms-filter:     grayscale(0%);
-    -o-filter:      grayscale(0%);
-    cursor: pointer;
-    transform: scale(1.2);
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  cursor: pointer;
+  transform: scale(1.2);
 }
 .sponsor-logo-bottom1:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
-  -moz-filter:    grayscale(0%);
-  -ms-filter:     grayscale(0%);
-  -o-filter:      grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
   cursor: pointer;
   transform: scale(1.2);
 }
