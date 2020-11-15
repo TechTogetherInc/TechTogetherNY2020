@@ -31,19 +31,11 @@
         {
             "Question": "What if I don't have a team? Do I need one?",
             "Answer": "While you have the option to work alone, TechTogether is a team event, so we encourage everyone to work in teams! Don't worry if you don't have a team\u2014you'll have plenty of opportunities to find one virtually! TechTogether will be hosting a variety of team formation activities throughout the first day, and we will also have a Discord channel dedicated to team formation leading up to and during the event."
-        },
-        {
-            "Question": "How many people can be on a team?",
-            "Answer": "All teams must be between 3-6 people. We highly encourage that advanced hackers bring on beginner hackers to mentor throughout the event."
-        },
-        {
-            "Question": "How long is the hackathon? When does it start and end?",
-            "Answer": "This event will take place December 4-6! Please note that all events will follow Eastern Time (GMT-4)."
         }],
     "FAQs_Right": [
         {
             "Question": "Can we start work on the project beforehand?",
-            "Answer": "You are welcome to brainstorm ideas before the actual event! All projects should be built from scratch, meaning you should not work on any previous projects."
+            "Answer": "You are welcome to brainstorm ideas before the actual event! However, all projects should be built from scratch starting 6 PM EST on Friday, meaning you should not work on any previous projects."
         },
         {
             "Question": "What if I have never been to a hackathon before?",
@@ -59,27 +51,18 @@
         },
         {
             "Question": "Will I need to pitch my idea? What if I don't know how to?",
-            "Answer": "Yes! If you don't know how to, don't worry! We will have a pitching workshop to help you prepare!"
-        },
-        {
-            "Question": "What kinds of workshops and speakers will be present?",
-            "Answer": "We will have workshops and speakers covering a variety of topics, including technical skills, career development, mental health, and social activities. More details coming soon in a Tentative Schedule section."
-        },
-        {
-            "Question": "What prizes can I win?",
-            "Answer": "Yes, but there's a little twist! The grand prizes are donations under your name to charities and causes! There will be other company sponsored prizes as well!"
+            "Answer": "Yes, through a 2-minute video. If you don't know how to, don't worry! We have a pitching workshop to help you prepare."
         },
         {
             "Question": "How will judging take place virtually?",
             "Answer": "Your team will have the option to present their projects to judges live or through a previously submitted video. If your team opts for a live presentation, you will have 2-3 minutes to present to the judge assigned to your team over Zoom."
         },
         {
-            "Question": "I want to volunteer, mentor, or judge! How can I help?",
-            "Answer": "Awesome! Please refer to the Get Involved section for forms to register as a mentor or judge."
+            "Question": "How many people can be on a team?",
+            "Answer": "All teams must be between 2-5 people. We highly encourage that advanced hackers bring on beginner hackers to mentor throughout the event."
         },
         {
-            "Question": "How do I become a sponsor of TTNY?",
-            "Answer": "Fantastic! Please refer to the Get Involved section for a sponsor interest form. Alternatively, reach out to sponsor.ny@techtogether.io."
-        }
-    ]
+            "Question": "How long is the hackathon? When does it start and end?",
+            "Answer": "This event will take place December 4-6! Please note that all events will follow Eastern Time (GMT-4)."
+        }]
 }
