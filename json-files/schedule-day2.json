@@ -4,7 +4,7 @@
 		"Time": "10:15AM - 11:15AM",
 		"Category": "Universal",
 		"Title": "Opening Ceremony",
-		"Location": "TBD",
+		"Host": "TBD",
 		"Description": "Coming soon!",
 		"GCal_Event": "#"
 	},
@@ -13,7 +13,7 @@
 		"Time": "11:30AM",
 		"Category": "Workshop",
 		"Title": "Workshops Begin!",
-		"Location": "TBD",
+		"Host": "TBD",
 		"Level": "1",
 		"Description": "Coming soon!",
 		"GCal_Event": ""
@@ -23,7 +23,7 @@
 		"Time": "11:30AM - 12:30PM",
 		"Category": "Universal",
 		"Title": "Team Formation Activity",
-		"Location": "TBD",
+		"Host": "TBD",
 		"Description": "Coming soon!",
 		"GCal_Event": ""
 	},
@@ -32,7 +32,7 @@
 		"Time": "12:30PM - 1:30PM",
 		"Category": "Activity",
 		"Title": "Meal Break: Tasty Cook-Off!",
-		"Location": "TBD",
+		"Host": "TBD",
 		"Description": "Coming soon!",
 		"GCal_Event": ""
 	},
@@ -41,7 +41,7 @@
 		"Time": "6:30PM - 7:30PM",
 		"Category": "Activity",
 		"Title": "Meal Break: Tasty Cook-Off!",
-		"Location": "TBD",
+		"Host": "TBD",
 		"Description": "Coming soon!",
 		"GCal_Event": ""
 	}

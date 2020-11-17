@@ -4,7 +4,7 @@
 		"Time": "6:00 PM",
 		"Category": "Universal",
 		"Title": "Hackathon Kickoff!",
-		"Location": "Discord",
+		"Host": "Discord",
 		"Description": "Coming soon!",
 		"GCal_Event": ""
 	},
@@ -13,7 +13,7 @@
 		"Time": "6:30PM - 8:00PM",
 		"Category": "Universal",
 		"Title": "Team Formation Activity",
-		"Location": "TBD",
+		"Host": "TBD",
 		"Description": "Coming soon!",
 		"GCal_Event": ""
 	}

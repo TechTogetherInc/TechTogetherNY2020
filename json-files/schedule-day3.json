@@ -4,7 +4,7 @@
 		"Time": "2:00 PM",
 		"Category": "Universal",
 		"Title": "Hacking Ends!",
-		"Location": "Devpost",
+		"Host": "Devpost",
 		"Description": "Coming soon!",
 		"GCal_Event": "#"
 	},
@@ -13,7 +13,7 @@
 		"Time": "5:00PM - 6:00PM",
 		"Category": "Universal",
 		"Title": "Closing Ceremony",
-		"Location": "TBD",
+		"Host": "TBD",
 		"Description": "Coming soon!",
 		"GCal_Event": "#"
 	},
@@ -22,7 +22,7 @@
 		"Time": "6:00 PM",
 		"Category": "Universal",
 		"Title": "End of Hackathon",
-		"Location": "TBD",
+		"Host": "TBD",
 		"Description": "We will miss you all!",
 		"GCal_Event": "#"
 	}

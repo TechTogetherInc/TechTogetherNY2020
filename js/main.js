@@ -33,7 +33,7 @@ function build_schedule(data, html, day) {
 
     // column with event title and location
     html += `<td colspan="2" class="event"><span> ${data[i].Title} </span><br>`;
-    html += `<span> ${data[i].Location} </span></td>`;
+    html += `<span> ${data[i].Host} </span></td>`;
 
     // add level icons for workshops only
     if (data[i].Class === "wshop") {
