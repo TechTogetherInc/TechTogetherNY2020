@@ -40,7 +40,7 @@ function build_schedule(data, html, day) {
       html += '<td class="level text-left" style="vertical-align: middle;">';
       const levelToLabelMap = {
         1: "Beginner",
-        2: "Intermediate",
+        2: "Intermed",
         3: "Advanced",
       };
       html += `<span style="border-radius: 20px; background-color: #fee3df; color: #fda094; padding: 10px; font-weight: 800"> ${

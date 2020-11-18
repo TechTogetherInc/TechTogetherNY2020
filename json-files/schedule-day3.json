@@ -1,29 +1,30 @@
 [
 	{
-		"Class": "univ",
-		"Time": "2:00 PM",
-		"Category": "Universal",
-		"Title": "Hacking Ends!",
-		"Host": "Devpost",
-		"Description": "Coming soon!",
-		"GCal_Event": "#"
+		"Class": "wshop",
+		"Time": "9:00 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "Networking & Resume-Building",
+		"Host": "Joseph Ham (Manager at SAP)",
+		"Description": "This workshop provides valuable insight on the power of personal branding and the reverberations it has on your professional platforms (LinkedIn, etc) and its connection to the resume. ",
+		"GCal_Event": ""
 	},
 	{
 		"Class": "univ",
-		"Time": "5:00PM - 6:00PM",
+		"Time": "3:30 PM",
+		"Category": "Universal",
+		"Title": "Judging Starts",
+		"Host": "TTNY team",
+		"Description": "",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "univ",
+		"Time": "5:00 PM",
 		"Category": "Universal",
 		"Title": "Closing Ceremony",
-		"Host": "TBD",
-		"Description": "Coming soon!",
-		"GCal_Event": "#"
-	},
-	{
-		"Class": "univ",
-		"Time": "6:00 PM",
-		"Category": "Universal",
-		"Title": "End of Hackathon",
-		"Host": "TBD",
-		"Description": "We will miss you all!",
-		"GCal_Event": "#"
+		"Host": "TTNY team",
+		"Description": "",
+		"GCal_Event": ""
 	}
 ]
