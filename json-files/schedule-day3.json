@@ -10,6 +10,16 @@
 		"GCal_Event": ""
 	},
 	{
+		"Class": "wshop",
+		"Time": "11:00 AM",
+		"Category": "Workshop",
+		"Level": "2",
+		"Title": "Introduction to a Containerized World - Docker",
+		"Host": "Priyanka Hariharan",
+		"Description": "This workshop introduces hackers to Docker and the importance of it in today's world. Then, everyone will have the chance to set up Docker and run a hello world example. Finally, the workshop will conclude with some best practices for Docker.",
+		"GCal_Event": ""
+	},
+	{
 		"Class": "univ",
 		"Time": "3:30 PM",
 		"Category": "Universal",

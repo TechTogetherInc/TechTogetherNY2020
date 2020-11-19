@@ -51,6 +51,16 @@
 		"Time": "2:30 PM",
 		"Category": "Workshop",
 		"Level": "1",
+		"Title": "Introduction to Python",
+		"Host": "Aneesha Nayak",
+		"Description": "In this workshop, hackers will learn the basics of python coding and how it correlates to an input and output standpoint creating digital art. The goal is to inspire attendees to code and create a social impact through computer science!",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "wshop",
+		"Time": "2:30 PM",
+		"Category": "Workshop",
+		"Level": "1",
 		"Title": "Interview Preparation",
 		"Host": "Jennifer Cosenza (from Careers Decoded)",
 		"Description": "Through this workshop we’ll show you how to break down a job description, prepare questions for the interviewers, how to approach answering interview questions, and go over tips and tricks for staying focused.  You’ll also walk away with a free digital “to-do list” for the morning of your interview.",
@@ -123,6 +133,16 @@
 		"Title": "Introduction to Data Analytics",
 		"Host": "Kelly Ly",
 		"Description": "In this workshop we will be using R to conduct data analysis and produce data visualizations based on census data. We will be looking at linear regression and five-number summaries as well as creating bar charts, scatter plots, and histograms.",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "wshop",
+		"Time": "10:00 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "Introduction to AWS",
+		"Host": "Angeline Chen",
+		"Description": "The AWS talk will introduce cloud computing, computing architectures, serverless computing, and the services offered by AWS (Compute, Storage, and APIs). No prior experience with cloud computing is required.  Students who attend the talk will get AWS credit!",
 		"GCal_Event": ""
 	}
 

@@ -19,6 +19,16 @@
 	},
 	{
 		"Class": "wshop",
+		"Time": "8:15 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "Introduction to Git",
+		"Host": "Yomaira Escano",
+		"Description": "This workshop focusues on the importance of using tools like GitHub for proper version control, especially when working with a team.  There will also be a demo of how to use Git and GitHub.",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "wshop",
 		"Time": "9:00 PM",
 		"Category": "Workshop",
 		"Level": "1",
