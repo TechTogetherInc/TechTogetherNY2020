@@ -234,26 +234,15 @@ tr.univ > th > span {
   color: #8dbaf1;
 }
 
-/* panel event */
-
-tr.panel,
-div.panel {
-  border-left: 10px solid #f196db;
-}
-
-tr.panel > th > span {
-  color: #f196db;
-}
-
 /* workshop event */
 
 tr.wshop,
 div.wshop {
-  border-left: 10px solid #fda094;
+  border-left: 10px solid #f196db;
 }
 
 tr.wshop > th > span {
-  color: #fda094;
+  color: #f196db;
 }
 
 /* special activity event */
@@ -381,13 +370,6 @@ div.card {
 }
 
 /* border colors cont */
-
-#schedule div.card-body.panel {
-  /* border-right: 0.75px solid #b3bafa;
-  border-bottom: 0.75px solid #b3bafa; */
-  border-top: none !important;
-}
-
 #first-card {
   /* border-top: 1px solid #b3bafa; */
 }
@@ -405,10 +387,6 @@ div.card-body.univ {
 }
 
 div.card-body.wshop {
-  color: #fda094;
-}
-
-div.card-body.panel {
   color: #f196db;
 }
 

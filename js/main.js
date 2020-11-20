@@ -43,7 +43,7 @@ function build_schedule(data, html, day) {
         2: "Intermed",
         3: "Advanced",
       };
-      html += `<span style="border-radius: 20px; background-color: #fee3df; color: #fda094; padding: 10px; font-weight: 800"> ${
+      html += `<span style="border-radius: 20px; background-color: #ffdaff; color: #f196db; padding: 10px; font-weight: 800"> ${
         levelToLabelMap[data[i].Level]
       } </span>`;
       html += "</td>";
