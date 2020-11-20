@@ -6,8 +6,7 @@
 		"Level": "1",
 		"Title": "Networking & Resume-Building",
 		"Host": "Joseph Ham (Manager at SAP)",
-		"Description": "This workshop provides valuable insight on the power of personal branding and the reverberations it has on your professional platforms (LinkedIn, etc) and its connection to the resume. ",
-		"GCal_Event": ""
+		"Description": "This workshop provides valuable insight on the power of personal branding and the reverberations it has on your professional platforms (LinkedIn, etc) and its connection to the resume. "
 	},
 	{
 		"Class": "wshop",
@@ -16,8 +15,16 @@
 		"Level": "2",
 		"Title": "Introduction to a Containerized World - Docker",
 		"Host": "Priyanka Hariharan",
-		"Description": "This workshop introduces hackers to Docker and the importance of it in today's world. Then, everyone will have the chance to set up Docker and run a hello world example. Finally, the workshop will conclude with some best practices for Docker.",
-		"GCal_Event": ""
+		"Description": "This workshop introduces hackers to Docker and the importance of it in today's world. Then, everyone will have the chance to set up Docker and run a hello world example. Finally, the workshop will conclude with some best practices for Docker."
+	},
+	{
+		"Class": "wshop",
+		"Time": "12:00 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "Let's Get Interdisciplinary!",
+		"Host": "Chinmayi Balusu",
+		"Description": "The host will share tips with attendees about how to adopt an interdisciplinary lens in their work to make for more well-rounded, impactful solutions. The workshop will provide examples of case studies in which a multidisciplinary approach worked out well, as well as hypothetical scenarios for attendees to brainstorm strategies with."
 	},
 	{
 		"Class": "univ",
@@ -25,8 +32,7 @@
 		"Category": "Universal",
 		"Title": "Judging Starts",
 		"Host": "TTNY team",
-		"Description": "",
-		"GCal_Event": ""
+		"Description": ""
 	},
 	{
 		"Class": "univ",
@@ -34,7 +40,6 @@
 		"Category": "Universal",
 		"Title": "Closing Ceremony",
 		"Host": "TTNY team",
-		"Description": "",
-		"GCal_Event": ""
+		"Description": ""
 	}
 ]

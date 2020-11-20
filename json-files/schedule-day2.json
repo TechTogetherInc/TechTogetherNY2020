@@ -5,8 +5,7 @@
 		"Category": "Universal",
 		"Title": "Opening Ceremony",
 		"Host": "TTNY team",
-		"Description": "",
-		"GCal_Event": ""
+		"Description": ""
 	},
 	{
 		"Class": "univ",
@@ -14,8 +13,7 @@
 		"Category": "Universal",
 		"Title": "Team Formation Activities",
 		"Host": "TTNY team",
-		"Description": "Looking for a team? Want to make new friends? Do not miss this opportunity to socialize with fellow TTNY hackers, bond over your shared love of coding and other hobbies, and form your hackathon dream team!",
-		"GCal_Event": ""
+		"Description": "Looking for a team? Want to make new friends? Do not miss this opportunity to socialize with fellow TTNY hackers, bond over your shared love of coding and other hobbies, and form your hackathon dream team!"
 	},
 	{
 		"Class": "wshop",
@@ -24,8 +22,7 @@
 		"Level": "1",
 		"Title": "Introduction to HTML & CSS",
 		"Host": "Salwa Din",
-		"Description": "During this workshop, hackers will use CodPen to create a simple \"portfolio\" website using HTML and CSS. Hackers will finish off by creating a GitHub repository and uploading their code to the repo.",
-		"GCal_Event": ""
+		"Description": "During this workshop, hackers will use CodPen to create a simple \"portfolio\" website using HTML and CSS. Hackers will finish off by creating a GitHub repository and uploading their code to the repo."
 	},
 	{
 		"Class": "activity",
@@ -33,8 +30,16 @@
 		"Category": "Activity",
 		"Title": "Meal Break!",
 		"Host": "TTNY team",
-		"Description": "",
-		"GCal_Event": ""
+		"Description": ""
+	},
+	{
+		"Class": "wshop",
+		"Time": "1:00 PM",
+		"Category": "Workshop",
+		"Level": "2",
+		"Title": "Using Django to Build a Web-App with <br> a Data-Focused Back End <br> Presented by MASSMUTUAL",
+		"Host": "Katie House",
+		"Description": "Want to build a web app, but don't know where to start? Come learn about Django, a python web framework that makes building web apps easier than ever. Led by a jr. data scientist at MassMutual, the talk introduces how web apps work and walks through a Django web app tutorial. The tutorial builds an end-to-end Django web app which integrates a simple machine learning model. Prerequisite: no prior experience with Django or machine learning is needed, but some exposure to Python is helpful. More information can be found here: https://github.com/katiehouse/django-scikit-learn-tutorial"
 	},
 	{
 		"Class": "wshop",
@@ -43,8 +48,7 @@
 		"Level": "3",
 		"Title": "Demystifying Desktop Applications",
 		"Host": "Shreya Prasad",
-		"Description": "In this hands on workshop, attendees will be introduced to Electron.js and they will learn to build their first cross platform desktop application using basic web technologies. <br> Before the workshop, please have Node.js and any Text Editor (e.g. VSCode) installed.",
-		"GCal_Event": ""
+		"Description": "In this hands on workshop, attendees will be introduced to Electron.js and they will learn to build their first cross platform desktop application using basic web technologies. <br> Before the workshop, please have Node.js and any Text Editor (e.g. VSCode) installed."
 	},
 	{
 		"Class": "wshop",
@@ -53,8 +57,7 @@
 		"Level": "1",
 		"Title": "Introduction to Python",
 		"Host": "Aneesha Nayak",
-		"Description": "In this workshop, hackers will learn the basics of python coding and how it correlates to an input and output standpoint creating digital art. The goal is to inspire attendees to code and create a social impact through computer science!",
-		"GCal_Event": ""
+		"Description": "In this workshop, hackers will learn the basics of python coding and how it correlates to an input and output standpoint creating digital art. The goal is to inspire attendees to code and create a social impact through computer science!"
 	},
 	{
 		"Class": "wshop",
@@ -63,8 +66,7 @@
 		"Level": "1",
 		"Title": "Interview Preparation",
 		"Host": "Jennifer Cosenza (from Careers Decoded)",
-		"Description": "Through this workshop we’ll show you how to break down a job description, prepare questions for the interviewers, how to approach answering interview questions, and go over tips and tricks for staying focused.  You’ll also walk away with a free digital “to-do list” for the morning of your interview.",
-		"GCal_Event": ""
+		"Description": "Through this workshop we’ll show you how to break down a job description, prepare questions for the interviewers, how to approach answering interview questions, and go over tips and tricks for staying focused.  You’ll also walk away with a free digital “to-do list” for the morning of your interview."
 	},
 	{
 		"Class": "wshop",
@@ -73,8 +75,7 @@
 		"Level": "2",
 		"Title": "Introduction to Node.js and Express.js",
 		"Host": "Ming Lei",
-		"Description": "This workshop will introduce hackers to the basics of Node.js and Express.js so that hackers can set up a local server for prototyping web applications and building backend APIs. <br> Before the workshop, please have Node.js installed.",
-		"GCal_Event": ""
+		"Description": "This workshop will introduce hackers to the basics of Node.js and Express.js so that hackers can set up a local server for prototyping web applications and building backend APIs. <br> Before the workshop, please have Node.js installed."
 	},
 	{
 		"Class": "wshop",
@@ -83,8 +84,7 @@
 		"Level": "1",
 		"Title": "Introduction to Ren.js",
 		"Host": "Vincent Xie",
-		"Description": "Attendees will learn how to build visual novel games in the RenJS framework.",
-		"GCal_Event": ""
+		"Description": "Attendees will learn how to build visual novel games in the RenJS framework."
 	},
 	{
 		"Class": "wshop",
@@ -93,8 +93,7 @@
 		"Level": "1",
 		"Title": "Crush Your Coding Interview <br> Presented by FACEBOOK",
 		"Host": "Nic Schworer (Recruiter from Facebook)",
-		"Description": "This workshop will provide preparation tips for technical interviews and will conclude with information about Facebook's recruiting process.",
-		"GCal_Event": ""
+		"Description": "This workshop will provide preparation tips for technical interviews and will conclude with information about Facebook's recruiting process."
 	},
 	{
 		"Class": "wshop",
@@ -103,8 +102,7 @@
 		"Level": "1",
 		"Title": "Offer Negotiation",
 		"Host": "Jennifer Cosenza (from Careers Decoded)",
-		"Description": "During this workshop we’ll walk through the aspects of a job offer, understanding how companies put together a package, and go over benefits. Then we’ll teach you how to negotiate with a recruiter and how to ask for your compensation requirements. You’ll leave with a free digital guide to use for every offer presented to you - so you can stay focused while doing the “I got an offer!” happy dance.",
-		"GCal_Event": ""
+		"Description": "During this workshop we’ll walk through the aspects of a job offer, understanding how companies put together a package, and go over benefits. Then we’ll teach you how to negotiate with a recruiter and how to ask for your compensation requirements. You’ll leave with a free digital guide to use for every offer presented to you - so you can stay focused while doing the “I got an offer!” happy dance."
 	},
 	{
 		"Class": "activity",
@@ -112,8 +110,7 @@
 		"Category": "Activity",
 		"Title": "Meal Break!",
 		"Host": "TTNY team",
-		"Description": "",
-		"GCal_Event": ""
+		"Description": ""
 	},
 	{
 		"Class": "wshop",
@@ -122,8 +119,7 @@
 		"Level": "2",
 		"Title": "Ethics and Governance in Artificial Intelligence <br> Presented by MASSMUTUAL",
 		"Host": "Raj Challa",
-		"Description": "The rapidly growing capabilities and increasing presence of AI-based systems in our lives raise pressing questions about the impact, governance, ethics, and accountability of these technologies. Some of the questions to think about are: How do we create trust in the decision making of these AI- systems and not make black boxes? How do we harness the potential of AI systems while ensuring that they do not exacerbate existing inequalities and biases, or even create new ones? How can we narrow the knowledge gap between AI “experts” and the variety of people who use, interact with, and are impacted by these technologies?",
-		"GCal_Event": ""
+		"Description": "The rapidly growing capabilities and increasing presence of AI-based systems in our lives raise pressing questions about the impact, governance, ethics, and accountability of these technologies. Some of the questions to think about are: How do we create trust in the decision making of these AI- systems and not make black boxes? How do we harness the potential of AI systems while ensuring that they do not exacerbate existing inequalities and biases, or even create new ones? How can we narrow the knowledge gap between AI “experts” and the variety of people who use, interact with, and are impacted by these technologies?"
 	},
 	{
 		"Class": "wshop",
@@ -132,8 +128,7 @@
 		"Level": "1",
 		"Title": "Introduction to Data Analytics",
 		"Host": "Kelly Ly",
-		"Description": "In this workshop we will be using R to conduct data analysis and produce data visualizations based on census data. We will be looking at linear regression and five-number summaries as well as creating bar charts, scatter plots, and histograms.",
-		"GCal_Event": ""
+		"Description": "In this workshop we will be using R to conduct data analysis and produce data visualizations based on census data. We will be looking at linear regression and five-number summaries as well as creating bar charts, scatter plots, and histograms."
 	},
 	{
 		"Class": "wshop",
@@ -142,8 +137,7 @@
 		"Level": "1",
 		"Title": "Introduction to AWS",
 		"Host": "Angeline Chen",
-		"Description": "The AWS talk will introduce cloud computing, computing architectures, serverless computing, and the services offered by AWS (Compute, Storage, and APIs). No prior experience with cloud computing is required.  Students who attend the talk will get AWS credit!",
-		"GCal_Event": ""
+		"Description": "The AWS talk will introduce cloud computing, computing architectures, serverless computing, and the services offered by AWS (Compute, Storage, and APIs). No prior experience with cloud computing is required.  Students who attend the talk will get AWS credit!"
 	}
 
 ]

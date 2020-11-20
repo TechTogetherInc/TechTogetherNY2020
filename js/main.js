@@ -50,9 +50,9 @@ function build_schedule(data, html, day) {
     }
 
     // column with calendar icon
-    html += `<td class="cal text-center" style="vertical-align: middle;""><a target="_blank" href="${data[i].GCal_Event}">`;
-    html += '<i class="fa fa-calendar"></i></a>';
-    html += "</td></tr></tbody></table></div>";
+    //html += `<td class="cal text-center" style="vertical-align: middle;""><a target="_blank" href="${data[i].GCal_Event}">`;
+   // html += '<i class="fa fa-calendar"></i></a></td>';
+    html += "</tr></tbody></table></div>";
     html += `<div id="${data_target}" class="collapse" aria-labelledby="${heading}" data-parent="#day${day}">`;
 
     // card body with event description

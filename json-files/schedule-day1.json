@@ -14,8 +14,7 @@
 		"Category": "Universal",
 		"Title": "Team Formation Activities",
 		"Host": "TTNY team",
-		"Description": "Looking for a team? Want to make new friends? Do not miss this opportunity to socialize with fellow TTNY hackers, bond over your shared love of coding and other hobbies, and form your hackathon dream team!",
-		"GCal_Event": ""
+		"Description": "Looking for a team? Want to make new friends? Do not miss this opportunity to socialize with fellow TTNY hackers, bond over your shared love of coding and other hobbies, and form your hackathon dream team!"
 	},
 	{
 		"Class": "wshop",
@@ -24,8 +23,7 @@
 		"Level": "1",
 		"Title": "Introduction to Git",
 		"Host": "Yomaira Escano",
-		"Description": "This workshop focusues on the importance of using tools like GitHub for proper version control, especially when working with a team.  There will also be a demo of how to use Git and GitHub.",
-		"GCal_Event": ""
+		"Description": "This workshop focusues on the importance of using tools like GitHub for proper version control, especially when working with a team.  There will also be a demo of how to use Git and GitHub."
 	},
 	{
 		"Class": "wshop",
@@ -34,8 +32,7 @@
 		"Level": "1",
 		"Title": "The Importance of Building Connections",
 		"Host": "Ellie Mortenson (Program Lead at SAP)",
-		"Description": "How do relationships impact our lives? What does it look like to build trust with team members? Is communication really that important? In this session, we’ll dive into all these questions and more. You’ll walk away equipped to make a connection with anyone, build trust and rapport with teams, and demonstrate clear communication skills. This will all be done through storytelling, breakout discussions, and writing reflections.",
-		"GCal_Event": ""
+		"Description": "How do relationships impact our lives? What does it look like to build trust with team members? Is communication really that important? In this session, we’ll dive into all these questions and more. You’ll walk away equipped to make a connection with anyone, build trust and rapport with teams, and demonstrate clear communication skills. This will all be done through storytelling, breakout discussions, and writing reflections."
 	},
 	{
 		"Class": "wshop",
@@ -44,7 +41,6 @@
 		"Level": "1",
 		"Title": "Introduction to Modeling in Python <br> Presented by MASSMUTUAL",
 		"Host": "Emily Dzwil & Quentin Dupupet",
-		"Description": "Models can help hackers make sense of the vast amount of data they are given. This talk introduces modeling using machine learning algorithms, providing examples in Python.",
-		"GCal_Event": ""
+		"Description": "Models can help hackers make sense of the vast amount of data they are given. This talk introduces modeling using machine learning algorithms, providing examples in Python."
 	}
 ]
