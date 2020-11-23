@@ -1,6 +1,15 @@
 [
 	{
 		"Class": "wshop",
+		"Time": "9:00 AM",
+		"Category": "Workshop",
+		"Level": "3",
+		"Title": "Process automation and insights across M365 data<br> using Microsoft Graph and Azure",
+		"Host": "Ayca Bas (Microsoft)",
+		"Description": "The workshop will go in detail about process automation and insights across M365 with a hands-on live demo. The session has 3 main concepts: (1) User interactive scenarios, (2) Non-interactive scenarios, (3) Reporting, analytics and insights scenarios."
+	},
+	{
+		"Class": "wshop",
 		"Time": "11:00 AM",
 		"Category": "Workshop",
 		"Level": "1",
