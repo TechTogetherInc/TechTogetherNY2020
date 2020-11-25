@@ -37,6 +37,15 @@
 	},
 	{
 		"Class": "univ",
+		"Time": "2:00 PM",
+		"Category": "Universal",
+		"Title": "Hacking Ends",
+		"Host": "TTNY team",
+		"Description": "",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "univ",
 		"Time": "3:30 PM",
 		"Category": "Universal",
 		"Title": "Judging Starts",

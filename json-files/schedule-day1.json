@@ -1,7 +1,7 @@
 [
 	{
 		"Class": "univ",
-		"Time": "6:00 PM",
+		"Time": "5:00 PM",
 		"Category": "Universal",
 		"Title": "Hackathon Kickoff!",
 		"Host": "TTNY team",
@@ -10,7 +10,16 @@
 	},
 	{
 		"Class": "univ",
-		"Time": "6:30 PM",
+		"Time": "6:00 PM",
+		"Category": "Universal",
+		"Title": "Opening Ceremony",
+		"Host": "TTNY team",
+		"Description": "",
+		"GCal_Event": ""
+	},
+	{
+		"Class": "univ",
+		"Time": "7:00 PM",
 		"Category": "Universal",
 		"Title": "Team Formation Activities",
 		"Host": "TTNY team",

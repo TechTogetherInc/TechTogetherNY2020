@@ -1,45 +1,57 @@
 {
     "FAQs_Left": [
         {
-            "Question": "What is a virtual hackathon? How does it operate?",
-            "Answer": "Whether you're just getting started or you've been programming since an early age, virtual hackathons are a great place to learn new skills, build your network, find jobs, and have fun! We have been hard at work to create a memorable and fun virtual experience for everyone, whether you are an experienced hacker or a first-timer!"
-        },
-        {
-            "Question": "Is there a theme for this event?",
-            "Answer": "Yes, the theme for this event is \"Embracing Uncertainty\"! We're focusing on ways to utilize technology to stay healthy, connected, and happy during these unprecedented times."
-        },
-        {
             "Question": "Who is eligible to participate?",
             "Answer": "This hackathon is for women (cis & trans) and non-binary partcipants only. Men are welcome to mentor, volunteer, judge, or participate as sponsors! You must be 16 years or older to participate in this event. There are no location restrictions!"
         },
         {
-            "Question": "Is there a cost to attend? Will there be food?",
-            "Answer": "Nothing! Thanks to our amazing sponsors, this event is free for all to attend. Because we are virtual this year, we will not be providing food, but we are working hard to provide everyone with fun gifts instead!"
+            "Question": "Where do I submit my project? How will judging work?",
+            "Answer": "Your project will be submitted through Devpost. Click on the \"Submit Project\" button at the top of the site to access the Devpost. Your submission must include a video (no longer than 2 minutes) that showcases your project, a basic description of your project, and the challenge(s) for which you want your project to be considered. If you're not sure how to pitch your project, we will have a pitching workshop to help you prepare."
+        },
+        {
+            "Question": "How to I find a mentor for help?",
+            "Answer": "In the #ask-a-mentor Discord channel, there will be a Google form you can fill out to request a mentor. A mentor will then message you directly over Discord, and you will have the option of working with the mentor over chat or over audio/video call to address the issue."
+        },
+        {
+            "Question": "What is a virtual hackathon? How does it operate?",
+            "Answer": "Whether you're just getting started or you've been programming since an early age, virtual hackathons are a great place to learn new skills, build your network, find jobs, and have fun! We have been hard at work to create a memorable and fun virtual experience for everyone, whether you are an experienced hacker or a first-timer!"
+        },
+        {
+            "Question": "What if I have never been to a hackathon before?",
+            "Answer": "Not a problem at all! We eagerly welcome first-time hackers looking to try something new. Hackathons are really a place for learning and one of the best ways to do so. We'll have a series of workshops to bootstrap you for hacking, and when you run into any problems or questions, mentors will be happy to help you out. By the time you walk out, you will have new skills, friends, and a project under your belt!"
+        },
+        {
+            "Question": "I did not get an invite to join Discord. How do I get the invite?",
+            "Answer": "You should have received an email with the Discord link if you properly registered for the event (check your Spam inbox too). If you cannot find the Discord link, then please email info.ny@techtogether.io."
+        },
+        {
+            "Question": "Can we start work on the project beforehand?",
+            "Answer": "You are welcome to brainstorm ideas before the actual event! However, all projects should be coded and built from scratch starting 6 PM EST on Friday, meaning you should not work on any previous projects."
         },
         {
             "Question": "What resources will I need in order to participate?",
             "Answer": "In order to build your project, you'll likely need a computer and whatever software you feel might be necessary for development. You'll also need a webcam and reliable internet connection to present your hard work to judges and other interested community members! We want everyone to have fun and get the most out of this event, so please reach out if you have any difficulty obtaining the resources you need!"
         },
         {
-            "Question": "What if I don't have access to the internet/a computer?",
-            "Answer": "No worries! Just let us know by filling out the Tech Request Form (in the Get Involved section) and we will try to get you the resources you need to participate."
-        },
-        {
-            "Question": "How do I register as a hacker and when is the deadline?",
-            "Answer": "We're so excited! Please refer to the Get Involved section for the hacker registration form."
-        },
-        {
             "Question": "What if I don't have a team? Do I need one?",
-            "Answer": "While you have the option to work alone, TechTogether is a team event, so we encourage everyone to work in teams! Don't worry if you don't have a team\u2014you'll have plenty of opportunities to find one virtually! TechTogether will be hosting a variety of team formation activities throughout the first day, and we will also have a Discord channel dedicated to team formation leading up to and during the event."
+            "Answer": "While you have the option to work alone, if you plan to submit a project, you must be in a team of 2-4 hackers. Don't worry if you don't have a team: you'll have plenty of opportunities to find one virtually! We will be hosting a variety of team formation activities throughout the first and second days, and we will also have a Discord channel dedicated to team formation leading up to and during the event."
         }],
     "FAQs_Right": [
         {
-            "Question": "Can we start work on the project beforehand?",
-            "Answer": "You are welcome to brainstorm ideas before the actual event! However, all projects should be built from scratch starting 6 PM EST on Friday, meaning you should not work on any previous projects."
+            "Question": "How many people can be on a team?",
+            "Answer": "All teams must be between 2-4 people. We highly encourage that advanced hackers bring on beginner hackers to mentor throughout the event."
         },
         {
-            "Question": "What if I have never been to a hackathon before?",
-            "Answer": "Not a problem at all! We eagerly welcome first-time hackers looking to try something new. Hackathons are really a place for learning and one of the best ways to do so. We'll have a series of workshops to bootstrap you for hacking, and when you run into any problems or questions, mentors will be happy to help you out. By the time you walk out, you will have new skills, friends, and a project under your belt!"
+            "Question": "What is the project submission deadline?",
+            "Answer": "The project submission deadline is 2 PM ET on Sunday, December 6th."
+        },
+        {
+            "Question": "Where do I go to attend a workshop or activity?",
+            "Answer": "The Zoom link for workshops and activities will be sent in the #event-announcements channel of the Discord. Please turn on your notifications and check the Discord frequently for updates about these exciting events!"
+        },
+        {
+            "Question": "Is there a theme for this event?",
+            "Answer": "Yes, the theme for this event is \"Embracing Uncertainty\"! We're focusing on ways to utilize technology to stay healthy, connected, and happy during these unprecedented times."
         },
         {
             "Question": "What if I have no coding experience?",
@@ -50,19 +62,15 @@
             "Answer": "Not to worry! We will have plenty of team-building workshops and mentors to help you brainstorm and bring your idea to life."
         },
         {
-            "Question": "Will I need to pitch my idea? What if I don't know how to?",
-            "Answer": "Yes, through a 2-minute video. If you don't know how to, don't worry! We have a pitching workshop to help you prepare."
+            "Question": "What if I don't have access to the internet/a computer?",
+            "Answer": "No worries! Just let us know by filling out the Tech Request Form (in the Get Involved section) and we will try to get you the resources you need to participate."
         },
         {
-            "Question": "How will judging take place virtually?",
-            "Answer": "Your team will have the option to present their projects to judges live or through a previously submitted video. If your team opts for a live presentation, you will have 2-3 minutes to present to the judge assigned to your team over Zoom."
+            "Question": "Is there a cost to attend? Will there be food?",
+            "Answer": "Nothing! Thanks to our amazing sponsors, this event is free for all to attend. Because we are virtual this year, we will not be providing food, but we are working hard to provide everyone with fun gifts instead!"
         },
         {
-            "Question": "How many people can be on a team?",
-            "Answer": "All teams must be between 2-4 people. We highly encourage that advanced hackers bring on beginner hackers to mentor throughout the event."
-        },
-        {
-            "Question": "How long is the hackathon? When does it start and end?",
-            "Answer": "This event will take place December 4-6! Please note that all events will follow Eastern Time (GMT-4)."
+            "Question": "Where can I find workshop recordings?",
+            "Answer": "Please check this website for workshop recordings as they are posted throughout thee hackathon."
         }]
 }
