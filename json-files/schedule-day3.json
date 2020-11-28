@@ -10,6 +10,15 @@
 	},
 	{
 		"Class": "wshop",
+		"Time": "10:00 AM",
+		"Category": "Workshop",
+		"Level": "2",
+		"Title": "Digital Audio Processing",
+		"Host": "Raymond Blum (Google)",
+		"Description": "This informative session on digital audio processing will explain how sound and audio works, before demonstrating programs to analyze and manipulate audio."
+	},
+	{
+		"Class": "wshop",
 		"Time": "11:00 AM",
 		"Category": "Workshop",
 		"Level": "1",

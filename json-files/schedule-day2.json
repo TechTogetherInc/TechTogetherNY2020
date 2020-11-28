@@ -44,6 +44,15 @@
 	},
 	{
 		"Class": "wshop",
+		"Time": "1:30 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "Introduction to JavaScript",
+		"Host": "Althea Bata",
+		"Description": "This workshop introduces the foundational JS syntax then shows brief examples of how they can be used. Attendees have the opportunity to apply the JS syntax in a repl.it, where you'll practice boolean operators in if statements, print out general statements, do mathematical operations, and make a premade webpage interactive.<br>Please make an account with repl.it before the workshop."
+	},
+	{
+		"Class": "wshop",
 		"Time": "2:30 PM",
 		"Category": "Workshop",
 		"Level": "1",
@@ -76,7 +85,7 @@
 		"Level": "1",
 		"Title": "Introduction to Ren.js",
 		"Host": "Vincent Xie",
-		"Description": "Attendees will learn how to build visual novel games in the RenJS framework."
+		"Description": "Attendees will learn how to build visual novel games in the RenJS framework.<br>Please have a text editor installed before the workshop."
 	},
 	{
 		"Class": "wshop",

@@ -35,6 +35,14 @@
 		"Description": "This workshop focusues on the importance of using tools like GitHub for proper version control, especially when working with a team.  There will also be a demo of how to use Git and GitHub."
 	},
 	{
+		"Class": "activity",
+		"Time": "8:15 PM",
+		"Category": "Activity",
+		"Title": "Calligraphy",
+		"Host": "Althea Bata",
+		"Description": "This fun activity allows attendees to learn the fundamentals of calligraphy applicable to any writing utensil that can vary in weight. You will then have the chance to practice a few letters on a worksheet, and use what you know to create your name or a short motivational quote."
+	},
+	{
 		"Class": "wshop",
 		"Time": "9:00 PM",
 		"Category": "Workshop",
