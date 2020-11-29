@@ -12,6 +12,15 @@
 		"Time": "11:30 AM",
 		"Category": "Workshop",
 		"Level": "1",
+		"Title": "Introduction to UI & UX",
+		"Host": "Joyce Lue (Dotdash)",
+		"Description": "This workshop will provide a short intro to the field for attendees who have never heard of UI/UX or are interested in learning more. Attendees will have the opportunity to engage in a couple of quick exercises on creativity too!"
+	},
+	{
+		"Class": "wshop",
+		"Time": "11:30 AM",
+		"Category": "Workshop",
+		"Level": "1",
 		"Title": "Introduction to HTML & CSS",
 		"Host": "Salwa Din",
 		"Description": "During this workshop, hackers will use CodPen to create a simple \"portfolio\" website using HTML and CSS. Hackers will finish off by creating a GitHub repository and uploading their code to the repo."
