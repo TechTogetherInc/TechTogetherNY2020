@@ -522,6 +522,73 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 		crossorigin="anonymous"></script>
+<!-- popup script -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script>
+		jQuery(document).ready(function($){
+		   //open popup
+		   $('.cd-popup-trigger-balsamiq').on('click', function(event){
+			   event.preventDefault();
+			   $('.cd-popup-balsamiq').addClass('is-visible');
+		   });
+		   
+		   //close popup
+		   $('.cd-popup-balsamiq').on('click', function(event){
+			   if( $(event.target).is('.cd-popup-close-balsamiq') || $(event.target).is('.cd-popup-balsamiq') ) {
+				   event.preventDefault();
+				   $(this).removeClass('is-visible');
+			   }
+		   });
+		   //close popup when clicking the esc keyboard button
+		   $(document).keyup(function(event){
+			   if(event.which=='27'){
+				   $('.cd-popup-balsamiq').removeClass('is-visible');
+			   }
+		   });
+	   });
+	   jQuery(document).ready(function($){
+		   //open popup
+		   $('.cd-popup-trigger-capitalOne').on('click', function(event){
+			   event.preventDefault();
+			   $('.cd-popup-capitalOne').addClass('is-visible');
+		   });
+		   
+		   //close popup
+		   $('.cd-popup-capitalOne').on('click', function(event){
+			   if( $(event.target).is('.cd-popup-close-capitalOne') || $(event.target).is('.cd-popup-capitalOne') ) {
+				   event.preventDefault();
+				   $(this).removeClass('is-visible');
+			   }
+		   });
+		   //close popup when clicking the esc keyboard button
+		   $(document).keyup(function(event){
+			   if(event.which=='27'){
+				   $('.cd-popup-capitalOne').removeClass('is-visible');
+			   }
+		   });
+	   });
+	   jQuery(document).ready(function($){
+		   //open popup
+		   $('.cd-popup-trigger-MassMutual').on('click', function(event){
+			   event.preventDefault();
+			   $('.cd-popup-MassMutual').addClass('is-visible');
+		   });
+		   
+		   //close popup
+		   $('.cd-popup-MassMutual').on('click', function(event){
+			   if( $(event.target).is('.cd-popup-close-MassMutual') || $(event.target).is('.cd-popup-MassMutual') ) {
+				   event.preventDefault();
+				   $(this).removeClass('is-visible');
+			   }
+		   });
+		   //close popup when clicking the esc keyboard button
+		   $(document).keyup(function(event){
+			   if(event.which=='27'){
+				   $('.cd-popup-MassMutual').removeClass('is-visible');
+			   }
+		   });
+	   });
+	   </script>
 </body>
 
 </html>
