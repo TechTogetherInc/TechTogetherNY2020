@@ -135,9 +135,17 @@
 		"Class": "activity",
 		"Time": "8:00 PM",
 		"Category": "Activity",
-		"Title": "Skribbl.io or Among Us",
+		"Title": "Among Us",
 		"Host": "Eryn Gautier",
-		"Description": "Come join us for a fun game of Skribbl.io or Among Us!"
+		"Description": "Come join us for a fun game of Among Us!"
+	},
+	{
+		"Class": "activity",
+		"Time": "8:30 PM",
+		"Category": "Activity",
+		"Title": "Skribbl.io",
+		"Host": "Fiona Whittington",
+		"Description": "Come join us for a fun game of Skribbl.io!"
 	},
 	{
 		"Class": "wshop",

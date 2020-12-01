@@ -59,5 +59,13 @@
 		"Title": "Introduction to Modeling in Python <br> Presented by MASSMUTUAL",
 		"Host": "Emily Dzwil & Quentin Dupupet",
 		"Description": "Models can help hackers make sense of the vast amount of data they are given. This talk introduces modeling using machine learning algorithms, providing examples in Python."
+	},
+	{
+		"Class": "activity",
+		"Time": "10:00 PM",
+		"Category": "Activity",
+		"Title": "Among Us",
+		"Host": "TechTogether Leadership Team",
+		"Description": "Come join us for a fun game of Among Us!"
 	}
 ]
