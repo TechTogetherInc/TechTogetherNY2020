@@ -553,8 +553,8 @@ div.card-body.activity {
   width: 210px;
   transition: transform 0.2s;
   margin-top: -40px;
-  margin-left: 190px;
-  margin-right: -160px;
+  margin-left: 55px;
+  margin-right: -5px;
 }
 
 .sponsor-logo-bottom {
@@ -566,7 +566,7 @@ div.card-body.activity {
   width: 100px;
   transition: transform 0.2s;
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 90px;
   margin-right: -20px;
 }
 
