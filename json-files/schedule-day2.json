@@ -89,6 +89,15 @@
 	},
 	{
 		"Class": "wshop",
+		"Time": "3:30 PM",
+		"Category": "Workshop",
+		"Level": "1",
+		"Title": "Taking Control of Uncertainty with Grace and Strength<br>Presented by DIGITAL PAGE",
+		"Host": "Jennifer Borchardt",
+		"Description": "Uncertainty is an inherent part of life. It can be scary, but it can also be empowering and used as a catalyst to discover your best self. In this session, learn how to constructively deal with uncertainty with practical techniques rooted in neuroscience, psychology, and pragmatism. Use these techniques as you consider your future career and personal goals."
+	},
+	{
+		"Class": "wshop",
 		"Time": "4:30 PM",
 		"Category": "Workshop",
 		"Level": "1",
