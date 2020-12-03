@@ -3,6 +3,15 @@
 		"Class": "wshop",
 		"Time": "9:00 AM",
 		"Category": "Workshop",
+		"Level": "2",
+		"Title": "Introduction to AI & Machine Learning",
+		"Host": "K. Sai Drishya",
+		"Description": "The workshop will begin with an introduction to the topic, before moving to the main demo and attendees will get to implement something along with the host. Finally, attendees will have the choice to implement a project selected by the host or by themselves."
+	},
+	{
+		"Class": "wshop",
+		"Time": "9:00 AM",
+		"Category": "Workshop",
 		"Level": "3",
 		"Title": "Process automation and insights across M365 data<br> using Microsoft Graph and Azure",
 		"Host": "Ayca Bas (Microsoft)",
