@@ -173,6 +173,14 @@
 		"Title": "Introduction to AWS",
 		"Host": "Angeline Chen",
 		"Description": "The AWS talk will introduce cloud computing, computing architectures, serverless computing, and the services offered by AWS (Compute, Storage, and APIs). No prior experience with cloud computing is required.  Students who attend the talk will get AWS credit!"
+	},
+	{
+		"Class": "activity",
+		"Time": "11:00 PM",
+		"Category": "Activity",
+		"Title": "Movie Night: Tangled",
+		"Host": "TTNY team",
+		"Description": ""
 	}
 
 ]
