@@ -66,7 +66,7 @@
 		"Category": "Workshop",
 		"Level": "1",
 		"Title": "Introduction to Python",
-		"Host": "Aneesha Nayak",
+		"Host": "Luis Alejo",
 		"Description": "In this workshop, hackers will learn the basics of python coding and how it correlates to an input and output standpoint creating digital art. The goal is to inspire attendees to code and create a social impact through computer science!"
 	},
 	{
@@ -139,6 +139,14 @@
 		"Title": "Ethics and Governance in Artificial Intelligence <br> Presented by MASSMUTUAL",
 		"Host": "Raj Challa",
 		"Description": "The rapidly growing capabilities and increasing presence of AI-based systems in our lives raise pressing questions about the impact, governance, ethics, and accountability of these technologies. Some of the questions to think about are: How do we create trust in the decision making of these AI- systems and not make black boxes? How do we harness the potential of AI systems while ensuring that they do not exacerbate existing inequalities and biases, or even create new ones? How can we narrow the knowledge gap between AI “experts” and the variety of people who use, interact with, and are impacted by these technologies?"
+	},
+	{
+		"Class": "activity",
+		"Time": "7:30 PM",
+		"Category": "Activity",
+		"Title": "Capture the Flag (Presented by US Air Force) and Bob Ross MS Paint",
+		"Host": "MLH",
+		"Description": "Come join us for a fun game of Capture the Flag and flex your drawing skills with our Bob Ross activity!"
 	},
 	{
 		"Class": "activity",
