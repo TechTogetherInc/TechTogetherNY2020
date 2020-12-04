@@ -67,5 +67,13 @@
 		"Title": "Among Us",
 		"Host": "TechTogether Leadership Team",
 		"Description": "Come join us for a fun game of Among Us!"
+	},
+	{
+		"Class": "activity",
+		"Time": "11:00 PM",
+		"Category": "Activity",
+		"Title": "Movie Night: Lilo and Stitch OR Frozen",
+		"Host": "TTNY team",
+		"Description": ""
 	}
 ]
