@@ -44,15 +44,6 @@
 	},
 	{
 		"Class": "wshop",
-		"Time": "1:00 PM",
-		"Category": "Workshop",
-		"Level": "3",
-		"Title": "Demystifying Desktop Applications",
-		"Host": "Shreya Prasad",
-		"Description": "In this hands on workshop, attendees will be introduced to Electron.js and they will learn to build their first cross platform desktop application using basic web technologies. <br> Before the workshop, please have Node.js and any Text Editor (e.g. VSCode) installed."
-	},
-	{
-		"Class": "wshop",
 		"Time": "1:30 PM",
 		"Category": "Workshop",
 		"Level": "1",
